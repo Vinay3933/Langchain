@@ -1,0 +1,95 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Tile
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Tile
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### The `--tile` parameter generates images that can be used as repeating
+tiles to create seamless patterns for fabrics, wallpapers and textures.
+
+`--tile` works with Model Versions `1` `2` `3` `test` `testp` `5` `5.1` `5.2`
+and `6`.  
+`--tile` only generates a single tile. Use a pattern making tool like this
+Seamless Pattern Checker  to see the tile repeat.
+
+* * *
+
+## Tile Examples
+
+`prompt` `a pattern of pink and blue striped river stones --tile`  
+
+  
+
+`prompt` `a pattern of colorful watercolor fall leaves --tile`  
+
+  
+
+* * *
+
+## How to Use the Tile Parameter
+
+Add `--tile` to the end of your prompt.
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

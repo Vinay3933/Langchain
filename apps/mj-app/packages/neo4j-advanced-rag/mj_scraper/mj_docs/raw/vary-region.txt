@@ -1,0 +1,192 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Vary Region
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Vary Region
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### Use the Midjourney Vary Region editor to select and regenerate specific
+parts of an upscaled image.
+
+  
+
+  * The `Vary (Region)` button appears after a Midjourney image has been upscaled.
+  * Regional variations are guided by the content in your original image and the area you select.
+  * `Vary (Region)` is compatible with Midjourney Model Versions `V5`, `V6`, `niji 5`, and `niji 6`.
+
+* * *
+
+## How to Use Vary Region
+
+### 1\. Generate an Image
+
+Create an image using the `/imagine` command.
+
+  
+
+### 2\. Upscale the Image
+
+Use the U buttons to upscale your selected image.
+
+  
+
+### 3\. Select Vary Region
+
+Click on the `🖌️ Vary (Region)` button to open the editing interface.
+
+  
+
+### 4\. Select Areas to Regenerate
+
+  * Choose the freehand or rectangular selection tools in the lower left of the Editor.
+  * Select the areas of your image that you want to regenerate.
+    * The size of your selection will affect your results. Larger selections give the Midjourney Bot more room to generate new creative details. Smaller selections will result in smaller, more subtle changes.  
+Note: You cannot edit an existing selection but can undo multiple steps using
+the undo button in the upper right corner.
+
+  
+
+### 5\. Submit Your Job
+
+Click the `Submit →` button to send your request to Midjourney Bot. The Vary
+Region editor can now be closed, and you can return to Discord while your Job
+is processed.
+
+**Note** You can use the `🖌️ Vary (Region)` button underneath an upscaled
+image multiple times to experiment with different selections. Your previous
+selection will be preserved. You can continue to add to this existing
+selection or use the `undo` button to clear your selection.
+
+  
+
+### 6\. View Your Results
+
+The Midjourney Bot will process your Job and generate a new image grid of
+variations within the area you selected.
+
+  
+
+* * *
+
+## Vary Region Examples
+
+Upscaled Image
+
+Prompt: colorful candy brooches
+
+Selection
+
+Result
+
+  
+
+Upscaled Image
+
+Prompt: architectural drawing of a house
+
+Selection
+
+Result
+
+  
+
+* * *
+
+## Vary Region + Remix Mode
+
+You can use Remix mode with the Vary Region editor to update your prompt while
+regenerating specific parts of your image. Read about using Remix Mode with
+the Vary Region editor.
+
+Original Image
+
+Prompt: `gouache alligator in sunglasses`
+
+Selection
+
+Updated Prompt: `gouache alligator in green sunglasses`
+
+Result
+
+Updated Prompt: `gouache alligator in green sunglasses`
+
+  
+
+* * *
+
+## Technical Details
+
+**Jobs generated using Vary (Region) will honor the followingparameters:**  
+\--chaos  
+\--fast  
+\--iw  
+\--no  
+\--stylize  
+\--relax  
+\--style  
+\--version  
+\--video  
+\--weird
+
+* * *
+
+ __
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

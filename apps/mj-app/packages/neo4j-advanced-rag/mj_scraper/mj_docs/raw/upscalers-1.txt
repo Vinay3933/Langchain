@@ -1,0 +1,176 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Upscalers
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Upscalers
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### The current Midjourney and Niji Model Versions produce grids of 1024 x
+1024 pixel images. Use the `U1` `U2` `U3` `U4` buttons under each image grid
+to separate your selected image from its grid. You can then use the `Upscale
+(Creative)` or `Upscale (Subtle)` tools to increase the size of your image.
+
+The `Upscale (Subtle)` option doubles the size of your image and keeps details
+very similar to the original. `Upscale (Creative)` also doubles the size of
+your image but adds new details to the image. Experiment with each upscaler
+option to find the one most suitable for the style of your image.
+
+  
+
+  * `Upscale` tools use your subscription's GPU minutes. Upscaling can take up to twice as many GPU minutes as generating an initial image grid.
+  * `Upscale` tools are not compatible with the \--tile parameter.
+
+  
+
+* * *
+
+## How to Use the Upscale Tools
+
+### 1\. Generate an Image
+
+Create an image using the `/imagine` command.
+
+  
+
+### 2\. Select an Image
+
+Use a `U` button to separate your selected image from the grid.
+
+  
+
+### 3\. Select Upscale
+
+Click on the `Upscale (Subtle)` or `Upscale (Creative)` button to upscale your
+image. The upscalers will double the size of your image to 2048 x 2048 pixels.
+
+  
+
+## Upscale Comparison
+
+Prompt: `chiaroscuro rooster portrait`  
+Original 1024 by 1024 pixel image.
+
+  
+  
+
+### Detail from original image
+
+Original image
+
+After upscaling to 2048 x 2048 px
+
+  
+
+## Upscale Comparison
+
+Prompt: `1960s pop-art acrylic painting of a stream running through a redwood
+forest`
+
+Original image
+
+Subtle upscale
+
+Creative upscale
+
+  
+
+Detail from original image
+
+Detail from subtle upscale
+
+Detail from creative upscale
+
+  
+
+Upscale Tip
+
+Upscale jobs you generated before new upscalers were released by refreshing
+them with the /show command. Buttons for all upscalers compatible with that
+image will appear under the refreshed job.
+
+* * *
+
+## Legacy Upscalers
+
+Earlier Midjourney model versions generated grids of lower-resolution images.
+You can use a legacy Midjourney upscaler on these images to increase the size
+and add additional details. There are multiple legacy upscale models available
+for upscaling images made with earlier Midjourney models. Using a legacy
+upscaler uses your subscription's GPU minutes.
+
+  
+
+The Midjourney Bot processes jobs on high-end GPUs. Each minute that it takes
+to complete a job is a **GPU minute**. You have a limited amount of GPU
+minutes when in **Fast Mode**. Because image generations may be processed on
+multiple GPUs simultaneously, GPU minutes are not directly connected to the
+time you wait for an image to generate.
+
+The Midjourney Bot processes jobs on high-end GPUs. Each minute that it takes
+to complete a job is a **GPU minute**. You have a limited amount of GPU
+minutes when in **Fast Mode**. Because image generations may be processed on
+multiple GPUs simultaneously, GPU minutes are not directly connected to the
+time you wait for an image to generate.
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

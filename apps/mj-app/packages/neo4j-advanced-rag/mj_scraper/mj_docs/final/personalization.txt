@@ -1,0 +1,84 @@
+Personalization
+
+# Personalization
+
+#### Create your own personalized images by ranking image pairs on
+midjourney.com and use the personalization parameter on your images.
+
+When you Rank Pairs Midjourney takes note of the kinds of images you prefer
+and can generate images for you based on your preferences.
+
+Add `--p` or `--personalize` to the end of your prompt on Discord or in the
+imagine bar on the website.
+
+  
+
+  * Personalization takes into account your choices when Ranking Pairs.
+  * By default, `--p` applies your own personalization, but you can use the personalization of other users by adding their shortcode to the parameter: `--p shortcode`.
+  * `--p` can be used with Midjourney Version 6.
+
+  
+
+You'll only be able to use `--p` if you've done enough Rank Pairs on the
+website. Otherwise, Midjourney won't have enough data to create your
+personalization. If you try to use `--p` without enough data, you'll see an
+error message directing you to do more ranking.
+
+  
+
+* * *
+
+## Examples
+
+`Prompt: a cat in a field of poppies`  
+Without personalization
+
+`Prompt: a cat in a field of poppies --p`  
+With personalization
+
+  
+
+* * *
+
+## Personalization in Settings
+
+On Discord you can use the `🙋 Personalization` button in your Midjourney
+settings (run the `/settings` command wherever you use the bot) to
+automatically add the `--p` parameter to all your prompts.
+
+  
+
+On the website you can turn Personalization on in the settings window to
+automatically add `--p` to all your prompts. Click the  icon in the imagine
+bar to access the settings window on web.
+
+  
+
+* * *
+
+## Shortcodes
+
+Every Midjourney user has a shortcode that can be used to invoke their
+personalization. By default, when you use `--p` in a prompt, your shortcode
+will be added to the prompt: `--p` ➡️ `--p yourshortcode`.
+
+If you know another user's shortcode, you can use add it to `--p` in the
+prompt to generate images using their personalization instead of yours: `--p
+theirshortcode`.
+
+  
+
+* * *
+
+## Stylize with Personalization
+
+When using `--p`, the `--stylize` (`--s`) parameter controls how much of your
+personalization is applied to the image. A lower `--s` value will limit the
+personalization, while a higher `--s` value will increase it. The stylize
+parameter accepts values from 0 to 1000. The default is 100.
+
+prompt example: `/imagine prompt` `a cat in a field of poppies`
+
+`--s 50`
+
+`--s 800`

@@ -1,0 +1,29 @@
+Tile
+
+# Tile
+
+#### The `--tile` parameter generates images that can be used as repeating
+tiles to create seamless patterns for fabrics, wallpapers and textures.
+
+`--tile` works with Model Versions `1` `2` `3` `test` `testp` `5` `5.1` `5.2`
+and `6`.  
+`--tile` only generates a single tile. Use a pattern making tool like this
+Seamless Pattern Checker  to see the tile repeat.
+
+* * *
+
+## Tile Examples
+
+`prompt` `a pattern of pink and blue striped river stones --tile`  
+
+  
+
+`prompt` `a pattern of colorful watercolor fall leaves --tile`  
+
+  
+
+* * *
+
+## How to Use the Tile Parameter
+
+Add `--tile` to the end of your prompt.

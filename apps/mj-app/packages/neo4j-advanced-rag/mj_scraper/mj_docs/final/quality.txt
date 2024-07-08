@@ -1,0 +1,66 @@
+Quality
+
+# Quality
+
+#### The `--quality` or `--q` parameter changes how much time is spent
+generating an image. Higher-quality settings take longer to process and
+produce more details. Higher values also mean more GPU minutes are used per
+job. The quality setting does not impact resolution.
+
+The default `--quality` value is 1.  
+`--quality` only accepts the values: .25, .5, and 1 for the current model.
+**Larger values are rounded down to 1.**  
+`--quality` only influences the initial image generation.
+
+* * *
+
+## The Influence of Quality on Jobs
+
+Higher `--quality` settings aren't always better. Sometimes a lower
+`--quality` settings can produce better results—depending on the image you're
+trying to create. Lower `--quality` settings might be best for a gestural
+abstract look. Higher `--quality` values may improve the look of architectural
+images that benefit from many details. Choose the setting that best matches
+the image you're hoping to create.
+
+### Version Quality Compatibility
+
+Model Version| Quality .25| Quality .5| Quality 1  
+---|---|---|---  
+Version 6| ✓| ✓| ✓  
+Version 5.2| ✓| ✓| ✓  
+niji 5| ✓| ✓| ✓  
+  
+  
+
+* * *
+
+### Quality Comparison
+
+Prompt example: `/imagine prompt` `intricate woodcut of a peony --q .25`
+
+##### `--quality .25`
+
+quickest results, least detailed results
+
+ _4× faster and ¼ the GPU minutes._
+
+##### `--quality .5`
+
+less detailed results
+
+ _2× faster and ½ the GPU minutes._
+
+##### `--quality 1`
+
+the default setting
+
+  
+
+* * *
+
+## How to Use the Quality Parameter
+
+### Use the `--quality` or `--q` Parameter
+
+Add `--quality <value>` or `--q <value>` to the end of your prompt.

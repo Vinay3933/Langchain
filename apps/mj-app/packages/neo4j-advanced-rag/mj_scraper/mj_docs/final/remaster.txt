@@ -1,0 +1,24 @@
+Remaster
+
+# Remaster
+
+## Remaster
+
+The Remaster feature is available for upscaled images generated using earlier
+Midjourney Model Versions. It creates a new grid of images using the latest
+Midjourney Model, combining the original image's composition with the
+coherency of the newer Midjourney Model Version v5.2.
+
+Remaster any previously upscaled job by clicking the `🆕 Remaster` button
+beneath the original upscale.
+
+To Remaster very old jobs, use the `/show` command to refresh that job in
+Discord.
+
+  
+
+prompt example: `/imagine prompt` `Byzantine sandcastle cathedral --v 2`
+
+##### Original Model Version 2 Image
+
+##### Remastered with Model Version 5.2

@@ -1,0 +1,255 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Model Version 4
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Model Version 4
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### Midjourney regularly introduces new model versions to improve coherency,
+efficiency, quality, and style. You can switch model versions by using the
+/settings command and selecting your preferred model version. Different models
+excel at producing different types of images.
+
+#### Read about the latest Midjourney Models here
+
+* * *
+
+### Default Paramter Values
+
+Model Version 4
+
+| Aspect Ratio| Chaos| Quality| Seed| Stop| Style| Stylize  
+---|---|---|---|---|---|---|---  
+Default Value  
+| 1:1| 0| 1| Random| 100| 4c| 100  
+Range  
+| 1:2–2:1| 0–100| .25 .5 or 1| whole numbers 0–4294967295| 10–100| 4a, 4b, or
+4c| 0–1000  
+  
+  
+
+* * *
+
+## Model Version 4 (Legacy)
+
+The Midjourney V4 model is an entirely new codebase and brand-new AI
+architecture designed by Midjourney and trained on the new Midjourney AI
+supercluster. The latest Midjourney model has more knowledge of creatures,
+places, objects, and more. It's much better at getting small details right and
+can handle complex prompts with multiple characters or objects. The Version 4
+model supports advanced functionality like image prompting and multi-prompts.
+
+This model has very high Coherency and excels with Image Prompts.
+
+  
+
+Prompt: vibrant California poppies
+
+Prompt: high contrast surreal collage
+
+  
+
+### Version 4 Styles 4a, 4b, and 4c
+
+Midjourney Model Version 4 has three slightly different "flavors" with slight
+tweaks to the stylistic tuning of the model. Experiment with these versions by
+adding `--style 4a`, `--style 4b`, or `--style 4c` to the end of a V4 prompt.
+
+`--v 4 --style 4c` is the current default and does not need to be added to the
+end of a prompt.
+
+Note on Style 4a and 4b
+
+`--style 4a` and `--style 4b` only support 1:1, 2:3, and 3:2 aspect ratios.  
+`--style 4c` support aspect ratios up to 1:2 or 2:1.
+
+##### `--style 4a`
+
+vibrant California poppies --style 4a
+
+##### `--style 4b`
+
+vibrant California poppies --style 4b
+
+##### `--style 4c`
+
+vibrant California poppies --style 4c
+
+##### `--style 4a`
+
+school of fish --style 4a
+
+##### `--style 4b`
+
+school of fish --style 4b
+
+##### `--style 4c`
+
+school of fish --style 4c
+
+  
+
+* * *
+
+## Niji Model 4 (Legacy)
+
+The `niji 4` model is a collaboration between Midjourney and Spellbrush tuned
+to produce anime and illustrative styles. The `--niji 4` model has vastly more
+knowledge of anime, anime styles, and anime aesthetics. It's excellent at
+dynamic and action shots and character-focused compositions in general.
+
+prompt example: `/imagine prompt` `vibrant California poppies --niji 4`
+
+##### `--v 4`
+
+California poppies --v 4
+
+##### `--niji 4`
+
+California poppies --niji 4
+
+##### `--v 4`
+
+birds sitting on a twig --v 4
+
+##### `--niji 4`
+
+birds sitting on a twig --niji 4
+
+  
+
+* * *
+
+## V4 Upscaler Tools
+
+Earlier Midjourney model versions start by generating a grid of low-resolution
+image options for each Job. You can use a Midjourney upscaler on any of these
+images to increase the size and add additional details. There are multiple
+upscale models available for upscaling an image. Using an upscaler uses your
+subscription's GPU minutes.
+
+The `U1` `U2` `U3` `U4` buttons under each image grid are used to upscale the
+selected image.
+
+Read more about current upscaling options
+
+  
+
+### Midjourney Dimensions and Sizes
+
+ _All sizes are for square 1:1 aspect ratios._
+
+Model Version| Starting Grid Size| V4 Default Upscaler| Detail Upscale| Light
+Upscale| Beta Upscale  
+---|---|---|---|---|---  
+Version 4| 512 x 512| 1024 x 1024| 1024 x 1024| 1024 x 1024| 2048 x 2048  
+niji 4| 512 x 512| 1024 x 1024| 1024 x 1024| 1024 x 1024| 2048 x 2048  
+  
+### Model Version 4 Upscaler
+
+The Midjourney Model Version 4 upscaler increases image size while smoothing
+or refining details. Some small elements may change between the initial grid
+image and the finished upscale.
+
+##### prompt: `adorable rubber duck medieval knight`
+
+##### prompt: `sand cathedral`
+
+* * *
+
+## Influence of Stylize on Model V4
+
+prompt example: `/imagine prompt` `illustrated figs --v 4 --s 100`
+
+`--stylize 50`
+
+`🖌️ Style Low`
+
+`--stylize 100` (default)
+
+`🖌️ Style Med`
+
+`--stylize 250`
+
+`🖌️ Style High`
+
+`--stylize 750`
+
+`🖌️ Style Very High`
+
+  
+
+* * *
+
+**Coherency** is the strength of the connection between the text prompt and
+the resulting image. A high degree of coherency means that the image will be
+an accurate representation of the prompt text.
+
+The Midjourney Bot processes jobs on high-end GPUs. Each minute that it takes
+to complete a job is a **GPU minute**. You have a limited amount of GPU
+minutes when in **Fast Mode**. Because image generations may be processed on
+multiple GPUs simultaneously, GPU minutes are not directly connected to the
+time you wait for an image to generate.
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

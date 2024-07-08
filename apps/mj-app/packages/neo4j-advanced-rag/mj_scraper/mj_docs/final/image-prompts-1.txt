@@ -1,0 +1,168 @@
+Image Prompts
+
+# Image Prompts
+
+#### You can use images as part of a prompt to influence a Job's composition,
+style, and colors. Images prompts can be used alone or with text
+prompts—experiment with combining images with different styles for the most
+exciting results.
+
+To add images to a prompt, type or paste the web address where the image is
+stored online. The address must end in an extension like .png, .gif, or .jpg.
+After adding image addresses, add any additional text and parameters to
+complete the prompt.
+
+  
+
+Prompts must have multiple image prompts or a single image prompt and a text
+prompt to work.  
+An image URL must be a direct link to an online image.  
+Your file should end in .png, .gif, .webp, .jpg, or .jpeg.  
+In most browsers, right-click or long-press an image and select Copy Image
+Address to get the URL.  
+The `/blend` command is a simplified image prompting process optimized for
+mobile users.
+
+  
+
+Privacy Notes
+
+  * Upload images in your direct messages with the Midjourney Bot to prevent other server users from seeing an image.
+  * Image prompts and references are visible on the Midjourney website unless you're generating in Stealth Mode.
+
+  
+
+* * *
+
+## How to Use an Image in Your Prompt
+
+### 1\. Upload an image to Discord
+
+Follow these instructions to upload your image to Discord.
+
+  
+
+### 2\. Copy your image's URL
+
+*Discord Desktop App: Right-click on the image and select **Copy Link** (NOT "Copy Message Link").
+
+  * Discord Web App: Click to expand the image, then right-click and choose "Copy image address."
+  * Discord Mobile App: Tap and hold on the image, then select "Copy Media Link."
+
+If none of these methods work, you can click to expand the image, and at the
+bottom, select "Open in Browser" so you can copy and paste the image's URL.
+
+To incorporate an image into your prompt, you need a direct image link that
+ends with .png, .gif, .webp, .jpg, or .jpeg. If the image is on your computer
+or phone, you can send it as a message to the Midjourney Bot first to generate
+a link.
+
+### How To Upload Your Image
+
+## Add an Image URL to Your Prompt
+
+To add an image to a prompt, begin typing `/imagine` as usual. After the
+prompt box appears, drag the image file into the prompt box to add the image's
+URL, or right-click and paste the link within the prompt box.
+
+  
+
+* * *
+
+## Examples
+
+### Starting Images
+
+Greecian style statue
+
+Vintage Flower Illustration
+
+Ernst Haeckel's Jellyfish
+
+Ernst Haeckel's Lichen
+
+Hokusai's The Great Wave
+
+  
+
+### Midjourney Model Version 5
+
+### Statue + Flowers
+
+\+
+
+### Statue + Jellyfish
+
+\+
+
+### Statue + Lichen
+
+\+
+
+### Statue + Wave
+
+\+
+
+### Statue + Lichen + Flowers
+
+\+  \+
+
+  
+
+Aspect Ratio Tip
+
+Crop images to the same aspect ratio as your final image for the best results.
+
+  
+
+* * *
+
+## Image Weight Parameter
+
+Use the image weight parameter `--iw` to adjust the importance of the image
+vs. text portion of a prompt. The default value is used when no `--iw` is
+specified. Higher `--iw` values mean the image prompt will have more impact on
+the finished job.
+
+See the Multi Prompts page for more information about the relative importance
+between parts of a prompt.
+
+Different Midjourney Version Models have different image weight ranges.
+
+| Version 6| Version 5| Version 4| niji 6| niji 5  
+---|---|---|---|---|---  
+Image Weight Default| 1| 1| NA| 1| 1  
+Image Weight Range| 0–3| 0–2| NA| 0–3| 0–2  
+  
+  
+
+prompt example: `/imagine prompt` `flowers.jpg birthday cake --iw .5`
+
+Image Prompt
+
+\--iw .25
+
+\--iw .5
+
+\--iw .75
+
+\--iw 1
+
+\--iw 1.25
+
+\--iw 1.5
+
+\--iw 1.75
+
+\--iw 2
+
+\--iw 3
+
+  
+
+* * *
+
+## Technical Details
+
+Prompts that only use images and no text are not compatible with the
+\--stylize, or \--weird parameters.

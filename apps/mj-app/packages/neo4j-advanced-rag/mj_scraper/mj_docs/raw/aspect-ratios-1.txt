@@ -1,0 +1,146 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Aspect Ratios
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Aspect Ratios
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### The `--ar` (or `--aspect`) parameter changes the aspect ratio of the
+generated image. An aspect ratio is the width-to-height ratio of an image. It
+is typically expressed as two numbers separated by a colon, such as 7:4 or
+4:3.
+
+A square image has equal width and height, described as a 1:1 aspect ratio.
+The image could be 1000px × 1000px, or 1500px × 1500px, and the aspect ratio
+would still be 1:1. A computer screen might have a ratio of 16:10. The width
+is 1.6 times longer than the height. So the image could be 1600px × 1000px,
+4000px × 2000px, 320px x 200px, etc.
+
+  * The default aspect ratio is 1:1.
+  * `--ar` must use whole numbers. Use 139:100 instead of 1.39:1.
+  * The first number represents width, while the second number represents height. For portrait (tall) images, the second number should be larger. For landscape (wide) images, the first number should be larger.
+  * The aspect ratio impacts the shape and composition of a generated image.
+  * Some aspect ratios may be slightly changed when upscaling.
+  * Older Midjourney Version Models may not support all aspect ratios.
+
+* * *
+
+### Aspect Ratio Comparison
+
+prompt example: `/imagine prompt` `vibrant California poppies --ar 5:4`
+
+Extremely wide and tall aspect ratios are experimental and may produce
+unpredictable results.
+
+  
+
+### Common Midjourney Aspect Ratios
+
+`--ar 1:1` Default aspect ratio.  
+`--ar 5:4` Common frame and print ratio.  
+`--ar 3:2` Common in print photography.  
+`--ar 7:4` Close to HD TV screens and smartphone screens.
+
+  
+
+* * *
+
+## Changing the Aspect Ratio of an Image
+
+Do you love an image you have generated but wish it was taller or wider? You
+can use the Pan and Zoom features to adjust the aspect ratio of your images in
+different ways. For more information, check out these pages: Pan, Zoom.
+
+  
+
+* * *
+
+## How to Set the Aspect Ratio
+
+### Use Aspect Ratio Parameters
+
+Add `--aspect <value>:<value>`, or `--ar <value>:<value>` to the end of your
+prompt on Discord or in the imagine bar on the website:
+
+  
+
+### Website Settings
+
+On the website, you can also set a default aspect ratio using the Settings
+button in the imagine bar:
+
+  
+
+The `Portrait` button will set your aspect ratio to 3:4. The `Landscape`
+button will set it to 4:3. You can adjust the slider left for taller aspect
+ratios, up to 1:2, or right for wider ones, up to 2:1.
+
+The value you set here will apply to all your prompts unless you specify a
+different value using the `--aspect` or `--ar` parameter in an individual
+prompt.
+
+Not all aspect ratios are supported by the slider, but you can use the `--ar`
+parameter at the end of your prompt to set any ratio you'd like.
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

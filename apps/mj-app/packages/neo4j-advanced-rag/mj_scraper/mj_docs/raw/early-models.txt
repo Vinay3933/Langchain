@@ -1,0 +1,277 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Early Model Versions
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Early Model Versions
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### Midjourney regularly introduces new model versions to improve coherency,
+efficiency, quality, and style. You can switch model versions by using the
+/settings command and selecting your preferred model version. Different models
+excel at producing different types of images.
+
+#### Read about the latest Midjourney Models here
+
+* * *
+
+## Model Version 1, 2, and 3 (Legacy)
+
+You can access earlier midjourney models by using the `--version` or `--v`
+parameter or by using the `/settings` command and selecting a model version.
+Different models excel at different types of images.
+
+prompt example: `/imagine prompt` `vibrant California poppies --v 1`
+
+##### `--version 3`
+
+default model: 07/22–11/22
+
+ _highly creative compositions_
+
+ _moderate coherency_
+
+##### `--version 2`
+
+default model: 04/22–07/22
+
+ _creative, colorful, and painterly_
+
+ _low coherency_
+
+##### `--version 1`
+
+default model: 02/22–04/22
+
+ _very abstract and painterly_
+
+ _low coherency_
+
+##### `--hd` (high definition)
+
+early alternative model
+
+ _busy detailed and abstract_
+
+ _low coherency_
+
+* * *
+
+## Niji Model 4 (Legacy)
+
+The `niji 4` model is a collaboration between Midjourney and Spellbrush tuned
+to produce anime and illustrative styles. The `--niji 4` model has vastly more
+knowledge of anime, anime styles, and anime aesthetics. It's excellent at
+dynamic and action shots and character-focused compositions in general.
+
+prompt example: `/imagine prompt` `vibrant California poppies --niji 4`
+
+##### `--v 4`
+
+California poppies --v 4
+
+##### `--niji 4`
+
+California poppies --niji 4
+
+##### `--v 4`
+
+birds sitting on a twig --v 4
+
+##### `--niji 4`
+
+birds sitting on a twig --niji 4
+
+  
+
+* * *
+
+## Test Models (Legacy)
+
+Occasionally new models are released temporarily for community testing and
+feedback. There are currently two available test models: `--test` and
+`--testp`, which can be combined with the `--creative` parameter for more
+varied compositions.
+
+prompt example: `/imagine prompt` `vibrant California poppies --testp
+--creative`
+
+##### `--test`
+
+ _A general-purpose artistic model with good coherency_
+
+##### `--test` \+ `--creative`
+
+##### `--testp`
+
+ _A photo-realism model with good coherency_
+
+##### `--testp` \+ `--creative`
+
+Notes on current test models `--test` and `--testp`
+
+Test models only support `--stylize` values between 1250–5000.  
+Test models do not support multi-prompts or image-prompts  
+Test models have a maximum aspect ratio of 3:2 or 2:3.  
+Test models only generate two initial grid images when the aspect ratio is
+1:1.  
+Test models only generate one initial grid image when the aspect ratio is not
+1:1.  
+Words near the front of the prompt may matter more than words near the back.
+
+* * *
+
+## Early Model Upscaler Tools
+
+Earlier Midjourney model versions start by generating a grid of low-resolution
+image options for each Job. You can use a Midjourney upscaler on any of these
+images to increase the size and add additional details. There are multiple
+upscale models available for upscaling an image. Using an upscaler uses your
+subscription's GPU minutes.
+
+The `U1` `U2` `U3` `U4` buttons under each image grid are used to upscale the
+selected image.
+
+Read more about current upscaling options
+
+  
+
+### Midjourney Dimensions and Sizes
+
+ _All sizes are for square 1:1 aspect ratios._
+
+Model Version| Starting Grid Size| V4 Default Upscaler| Detail Upscale| Light
+Upscale| Beta Upscale| Max Upscale**  
+---|---|---|---|---|---|---  
+v1–v3| 256 x 256| -| 1024 x 1024*| 1024 x 1024| 1024 x 1024| 1664 x 1664  
+niji| 512 x 512| 1024 x 1024| 1024 x 1024| 1024 x 1024| 2048 x 2048| -  
+test / testp| 512 x 512| -| -| -| 2048 x 2048| -  
+hd| 512 x 512| -| 1536 x 1536*| 1536 x 1536| 2048 x 2048| -  
+  
+`*` = the default upscaler for each Midjourney Version Model.  
+`**` Max Upscale is an older resource-intensive upscaler and is only available
+when users are in Fast Mode.
+
+  
+
+### Light Upscaler
+
+The Light Upscaler creates a 1024px x 1024px image and adds a moderate amount
+of details and textures. The Light Upscaler is useful for faces and smooth
+surfaces when using older Midjourney Model Versions.
+
+Use the `--uplight` parameter to change the behavior of the `U1` `U2` `U3`
+`U4` upscale buttons to use the Light Upscaler.
+
+##### prompt: `adorable rubber duck medieval knight`
+
+##### prompt: `sand cathedral`
+
+  
+
+### Detailed Upscaler
+
+The Detail Upscaler creates a 1024px x 1024px image and adds many additional
+fine details to the image.
+
+Images that have been upscaled with the detailed upscaler can be upscaled
+again using the `Upscale to Max` button for a final resolution of 1664px x
+1664px. `Upscale to Max` is only available when in Fast mode.
+
+The Detailed upscaler was the default for Midjourney Model Versions `V1`,
+`V2`, `V3`, and `hd`
+
+##### prompt: `adorable rubber duck medieval knight`
+
+##### prompt: `sand cathedral`
+
+  
+
+### Beta Upscaler
+
+The Beta Upscaler creates a 2048px x 2048px image without adding many
+additional details. The Beta Uspcaler is useful for faces and smooth surfaces.
+
+Use the `--upbeta` parameter to change the behavior of the `U1` `U2` `U3` `U4`
+upscale buttons to use the Beta Upscaler.
+
+##### prompt: `adorable rubber duck medieval knight`
+
+##### prompt: `sand cathedral`
+
+The Midjourney Bot processes jobs on high-end GPUs. Each minute that it takes
+to complete a job is a **GPU minute**. You have a limited amount of GPU
+minutes when in **Fast Mode**. Because image generations may be processed on
+multiple GPUs simultaneously, GPU minutes are not directly connected to the
+time you wait for an image to generate.
+
+There are two modes for image generation, **Fast Mode** and**Relax Mode**.
+Fast Mode tries to give you a GPU instantly. It's the highest-priority
+processing tier and uses your subscription's monthly GPU time. **Relax Mode**
+queues your generation behind others based on how much you've used the system.
+**Relax Mode** wait times are variable and usually range from 1–10 minutes.
+
+By default, your images will be generated using **Fast** mode. You can switch
+to **Relax** if you have a Standard or Pro subscription.
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

@@ -1,0 +1,136 @@
+Remix
+
+# Remix
+
+#### Enable Remix Mode to edit your prompt text and parameters after
+generating an image. It can help you change the setting or lighting of an
+image, evolve a subject, or acheive tricky compositions.
+
+Turn Remix Mode on by using the `/prefer remix` command or by using
+`/settings` command and clicking the `🎛️ Remix Mode` button.
+
+  
+
+Once enabled, Remix Mode allows you to edit your prompt when you make a
+variation (including `Vary (Region)`), Reroll 🔄, or Pan an existing image.
+
+  
+
+  * You can edit image references, model version, parameters, and weights in addition to prompt text when using Remix Mode, but the resulting combination of prompt elements must still work.
+  * If you don't change anything about the prompt in the Remix window, Midjourney will generate a normal variation.
+  * Remixing takes into account your variation mode settings.
+  * While `Remix Mode` is enabled, `V` buttons turn green instead of blue when clicked.
+
+  
+
+* * *
+
+## Using Remix
+
+Turn Remix Mode on by using the `/prefer remix` command or by using
+`/settings` command and clicking the `🎛️ Remix Mode` button. Once Remix mode
+is active:
+
+### Step 1
+
+`line-art stack of pumpkins`
+
+**Click a`🪄 Vary` or `V` button.**
+
+Select an image grid or upscaled image to Remix.
+
+### Step 2
+
+`Remix`
+
+**Change your prompt.**
+
+Modify or enter a new prompt in the pop-up.
+
+### Results
+
+`pile of cartoon owls`
+
+The Midjourney Bot generates an image using the new prompt with influence from
+the original image.
+
+  
+
+### Starting Image
+
+line-art stack of pumpkins
+
+### Model Change
+
+line-art stack of pumpkins --test
+
+### Subject Change
+
+balloon-animal shaped stack of pumpkins"
+
+### Medium Change
+
+vibrant illustrated stack of fruit
+
+* * *
+
+## Changing Parameters with Remix
+
+You can add or remove Parameters while using Remix mode, but you must use
+valid parameter combinations. Changing `/imagine prompt` `illustrated stack of
+pumpkins --version 3 --stylize 10000` to `illustrated stack of pumpkins
+--version 4 --stylize 10000` will return an error because Midjourney Model
+Version 4 is incompatible with Stylize values over 1000.
+
+Only parameters that normally influence variations will work while using
+Remix:
+
+| Affects Initial  
+Generation| Affects Variations  
+and Remix  
+---|---|---  
+Aspect Ratio*| ✓| ✓  
+Chaos| ✓|  
+Image Weight| ✓|  
+No| ✓| ✓  
+Quality| ✓|  
+Seed| ✓|  
+Same Seed| ✓|  
+Stop| ✓| ✓  
+Stylize| ✓|  
+Tile| ✓| ✓  
+Video| ✓| ✓  
+  
+  
+
+Changing aspect ratios with Remix will _stretch_ an image. It will not extend
+the canvas, add missing details, or fix a bad crop. To adjust aspect ratios or
+fix cropping issues, try Zoom or Pan instead.
+
+  
+
+* * *
+
+## Variation Modes and Remix
+
+In Midjourney Versions 5 and 6 and Niji Versions 5 and 6, you can choose
+between `🎨 High Variation Mode` (the default) and `🎨 Low Variation Mode`. This
+setting applies to Remixing variations as well, which means you'll see
+stronger changes with High Variation Mode and subtler changes with Low
+Variation Mode. You may have trouble changing the subject or composition of
+your image with Remix if you have Low Variation Mode enabled, for example, but
+it can be useful for changing details.
+
+### Examples
+
+### Starting Image
+
+a horse
+
+### Low Variation Mode
+
+a unicorn - Remix (Subtle)
+
+### High Variation Mode
+
+a unicorn - Remix (Strong)

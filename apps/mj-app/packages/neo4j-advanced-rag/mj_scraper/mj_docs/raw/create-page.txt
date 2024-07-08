@@ -1,0 +1,250 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Create Page
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Create Page
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### Generate Midjourney images directly on midjourney.com from the Create
+page.
+
+Creating images on the website is currently only available for users with at
+least 100 Discord generations. To check your eligibility, use the `/info`
+command wherever you generate images in Discord and look for your "Lifetime
+Usage" count.
+
+## Creating and Searching Images
+
+Use the text fields at the top of the screen to enter prompts or search your
+previous creations.
+
+### 1\. Imagine Bar
+
+Type your prompts here. Hit `Enter` to begin generating when you're ready. You
+can use parameters in your prompts the same way you would in Discord, or you
+can set them with the settings tool.
+
+### 2\.  Image Prompts and References
+
+Click the  button to open the image selection tool, where you can quickly and
+easily manage image prompts, character references, and style references. For
+more information about this tool, as well as about managing your uploaded
+images, visit the Using Image References on Web page.
+
+### 3\.  Settings
+
+Click the settings button to access your personal settings. Preferences you
+set here will automatically apply to all your prompts. If you want to use
+different settings for a single prompt, you can use \--parameters in your
+prompt to override your settings.
+
+For example if your default Speed is Relax, you can run a single job in Fast
+Mode by adding the `--fast` parameter to the end of your prompt.
+
+Website settings are separate from Discord settings. This includes your
+generation speed (Relax, Fast, or Turbo Mode) and Stealth Mode settings. In
+particular, the website defaults to Public Mode images unless you turn Stealth
+Mode on. Double-check your website settings before generating any images to be
+sure your preferences are set correctly.  
+Stealth Mode is only available on the Pro and Mega Plans.
+
+**Website settings correspond to these features:**
+
+Setting Name| Feature  
+---|---  
+Image Size| Aspect Ratio  
+Stylization| Stylize  
+Weirdness| Weird  
+Variety| Chaos  
+Mode| Style  
+Version| Version  
+Speed| Relax, Fast, or Turbo Mode  
+Stealth| Stealth Mode  
+  
+### 4\.  Search
+
+Search images in your Create feed. You can search by prompt text or
+parameters.
+
+  
+
+* * *
+
+## Hovering over an Image or Prompt
+
+As you generate images, they'll appear on your Create page with the most
+recent images at the top. Hovering over the generated images, or the prompt
+display on the right, will show some additional options.
+
+### Hovering over an Image
+
+Hover over a generated image to reveal `Vary Subtle` and `Vary Strong`
+buttons. Learn more about the differences between subtle and strong variations
+on the Variations page.
+
+### Hovering over a Prompt
+
+On the right side of the Create page, you'll see the prompts used to generate
+your images, including any parameters and image references. Hover over this
+section to see additional actions you can take with your images:
+
+**Rerun:** Repeat this job.
+
+**Use:** Copy this prompt to the imagine bar to quickly reuse or tweak it.
+Parameters and reference images used in the prompt will be copied too.
+
+**Hide:** Hide this image from your Create feed. This will also hide the image
+from your Archive. It will still be visible to other users unless it's also
+Unpublished.
+
+**More:** See a menu of additional options for this job:
+
+Copy: Copy the prompt, job ID, seed, image, or image URL to your clipboard.  
+Report: Report an image you believe violates the Community Guidelines.  
+Publish /  Unpublish: Publish or Unpublish the image. This option only appears
+if your plan includes Stealth Mode.  
+Download: Download the selected image.  
+Open in Discord: Jump to the location in Discord where this image was
+generated. For images generated on the website, a `Discord URL not available`
+error will appear if you click this button.
+
+  
+
+  
+
+* * *
+
+## Clicking on an Image
+
+Click on an image in your Create page feed to see additional actions you can
+take with that image.
+
+### 1\. Job Type
+
+For non-imagine jobs, hover over this label to see a preview of the original
+set of images, with the parent image highlighted. Click on any image in the
+preview to jump to that image.
+
+### 2\. Menu Buttons
+
+**Options**  
+Manually copy prompt details, including the image URL and prompt, to use in
+your own generations.
+
+**Download**  
+Download the selected image.
+
+**Search**  
+Search for other images like this one.
+
+**Like**  
+Like / ❤️ images so they appear in your "Liked" view.
+
+### 3\. Create Feed
+
+Click through to other nearby images from your Create feed. You can also use
+your mouse wheel to scroll through these images from anywhere on the page.
+
+### 4\. Image Actions
+
+Use the buttons here to generate new images based on this one. Any actions not
+shown aren't available for that image (for example, Vary Region will not be
+available on upscaled images).  
+To learn more about each of these actions, visit their feature pages: Vary,
+Upscale, Remix, Pan, Zoom, Vary Region.  
+The `Use` buttons allow you to quickly add elements of this job's prompt to
+the imagine bar so you can reuse or tweak it. `Image` will add this image to
+your next job as an image prompt. `Style` will add the image as a Style
+Reference. `Prompt` will add the full prompt text, including parameters.
+
+You can "Hide" images on the Midjourney website to remove them from your
+Archive. They'll no longer be visible to you unless you have the "Hidden"
+filter selected, but other users will still be able to view them (unless the
+image is also "Unpublished"). Hiding images is a good way to keep your Archive
+uncluttered.
+
+You can "Unhide" your hidden images to restore them to your archive anytime,
+so they're never lost.
+
+By default, all images generated by Midjourney are "published," or viewable by
+other users on midjourney.com. Users on plans that include Stealth Mode can
+generate "unpublished" images that aren't visible to other users.
+
+You can publish your own unpublished images at any time on the website. If you
+have an active subscription that includes Stealth Mode, you can also unpublish
+any published images you have.
+
+Learn more about Stealth Mode.
+
+By default, all images generated by Midjourney are "published," or viewable by
+other users on midjourney.com. Users on plans that include Stealth Mode can
+generate "unpublished" images that aren't visible to other users.
+
+You can publish your own unpublished images at any time on the website. If you
+have an active subscription that includes Stealth Mode, you can also unpublish
+any published images you have.
+
+Learn more about Stealth Mode.
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

@@ -1,0 +1,345 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Model Version 5
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Model Version 5
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### Midjourney regularly introduces new model versions to improve coherency,
+efficiency, quality, and style. You can switch model versions by using the
+/settings command and selecting your preferred model version. Different models
+excel at producing different types of images.
+
+#### Read about the latest Midjourney Models here.
+
+* * *
+
+## Default Parameter Values
+
+Model Version 5, 5.1, and 5.2
+
+| Aspect Ratio| Chaos| Quality| Seed| Stop| Stylize  
+---|---|---|---|---|---|---  
+Default Value  
+| 1:1| 0| 1| Random| 100| 100  
+Range  
+| any| 0–100| .25 .5, or 1| whole numbers 0–4294967295| 10–100| 0–1000  
+  
+  * Aspect ratios greater than 2:1 are experimental and may produce unpredictable results.
+
+  
+
+* * *
+
+## Model Version 5.2 (Legacy)
+
+The Midjourney V5.2 model was released in June 2023. To use this model, add
+the `--v 5.2` parameter to the end of a prompt, or use the `/settings` command
+and select `5️⃣ MJ Version 5.2`
+
+Default Model 06/22/23–02/14/2024
+
+This model produces more detailed, sharper results with better colors,
+contrast, and compositions. It also has a slightly better understanding of
+prompts than earlier models and is more responsive to the full range of the
+`--stylize` parameter.
+
+  
+
+Prompt: vibrant California poppies --v 5.2
+
+Prompt: high contrast surreal collage --v 5.2
+
+  
+
+### Model Version 5.2 + Style Raw Parameter
+
+Midjourney Model Versions 5.1 and 5.2 can be fine-tuned with the `--style raw`
+parameter to reduce the Midjourney default aesthetic.
+
+Read more about the Midjourney `--style` parameter.
+
+  
+
+##### `default --v 5.2`
+
+`vibrant California poppies`
+
+##### `--v 5.2 --style raw`
+
+`vibrant California poppies --style raw`
+
+##### `default --v 5.2`
+
+`high contrast surreal collage`
+
+##### `--v 5.2 --style raw`
+
+`high contrast surreal collage --style raw`
+
+  
+
+* * *
+
+## Model Version 5.1 (Legacy)
+
+The Midjourney V5.1 was released on May 4th, 2023. To use this model, add the
+`--v 5.1` parameter to the end of a prompt, or use the `/settings` command and
+select `5️⃣ MJ Version 5.1`
+
+Default Model 05/03/23–06/22/23
+
+This model has a stronger default aesthetic than earlier versions, making it
+easier to use with simple text prompts. It also has high Coherency, excels at
+accurately interpreting natural language prompts, produces fewer unwanted
+artifacts and borders, has increased image sharpness, and supports advanced
+features like repeating patterns with `--tile`.
+
+  
+
+Prompt: vibrant California poppies --v 5.1
+
+Prompt: high contrast surreal collage --v 5.1
+
+  
+
+* * *
+
+## Model Version 5.0 (Legacy)
+
+The Midjourney V5.0 model produces more photographic generations than the V5.1
+model. This model produces images that closely match the prompt but may
+require longer prompts to achieve your desired aesthetic.
+
+Default Model 03/30/23–05/03/23
+
+To use this model, add the `--v 5` parameter to the end of a prompt, or use
+the `/settings` command and select `5️⃣ MJ Version 5`  
+  
+
+Prompt: vibrant California poppies --v 5
+
+Prompt: high contrast surreal collage --v 5
+
+  
+
+  
+
+* * *
+
+## Niji Model 5 (Legacy)
+
+The Niji model is a collaboration between Midjourney and Spellbrush tuned to
+produce anime and illustrative styles with vastly more knowledge of anime,
+anime styles, and anime aesthetics. It's excellent at dynamic and action shots
+and character-focused compositions.
+
+To use this model, add the `--niji 5` parameter to the end of a prompt, or use
+the `/settings` command and select `🍏 Niji version 5`
+
+This model is sensitive to the `--stylize` parameter. Experiment with
+different stylization ranges to fine-tune your images.
+
+### Niji 5 Styles
+
+Niji Model Version 5 can also be fine-tuned with `--style` parameters to
+achieve unique looks. Try `--style cute`, `--style scenic`, `--style original`
+(uses the original Niji Model Version 5, which was the default before May
+26th, 2023), or `--style expressive`.
+
+**Niji Style Parameters**  
+`--style cute` creates charming and adorable characters, props, and settings.  
+`--style expressive` has a more sophisticated illustrated feeling.  
+`--style original` uses the original Niji Model Version 5, which was the
+default before May 26th, 2023.  
+`--style scenic` makes beautiful backgrounds and cinematic character moments
+in the context of their fantastical surroundings.
+
+##### `default --niji 5`
+
+birds perching on a twig --niji 5
+
+##### `--style original`
+
+birds perching on a twig --niji 5 --style original
+
+##### `--style cute`
+
+birds perching on a twig --niji 5 --style cute
+
+##### `--style expressive`
+
+birds perching on a twig --niji 5 --style expressive
+
+##### `--style scenic`
+
+birds perching on a twig --niji 5 --style scenic
+
+  
+
+* * *
+
+## V5 Upscaler Tools
+
+Midjourney Model Version 5.2 produces grids of 1024 x 1024 pixel images. Use
+the `U1` `U2` `U3` `U4` buttons under each image grid to separate your
+selected image from its grid. You can then use the `Upscale (2x)` or `Upscale
+(4x)` tools to increase the size of your image.
+
+`Upscale` tools use your subscription's GPU minutes. Using `Upscale 2X` on an
+image takes roughly twice as long as generating an initial image grid. Using
+`Upscale 4X` on an image takes roughly six times as long as generating an
+initial image grid.
+
+V5 `Upscale` tools are not compatible with the pan tool or the tile parameter.
+
+  
+
+### Upscaler Comparison
+
+`Upscale (2x)`
+
+Original 1024 by 1024 pixel image
+
+Detail from the original image
+
+After `Upscale (2x)` to 2048 x 2048 px
+
+  
+
+* * *
+
+### Upscaler Comparison
+
+Prompt: `1960s pop-art acrylic of redwoods`  
+Original 1024 by 1024 pixel image.
+
+Original 1024 by 1024 pixel image
+
+Detail from the original image
+
+After `Upscale (4x)` to 4096 x 4096 px
+
+  
+
+* * *
+
+## Influence of \--stylize on Model Version 5
+
+### Midjourney Model Version 5 Stylize Comparison
+
+prompt example: `/imagine prompt` `child's drawing of a cat --s 100`
+
+##### `--stylize 50`
+
+Equal to `🖌️ Style Low`
+
+##### `--stylize 100` (default)
+
+Equal to `🖌️ Style Med`
+
+##### `--stylize 250`
+
+Equal to `🖌️ Style High`
+
+##### `--stylize 750`
+
+Equal to `🖌️ Style Very High`
+
+  
+
+### Niji 5 Stylize Comparison
+
+prompt example: `/imagine prompt` `colorful risograph of a fig --niji 5 --s
+100`
+
+`--stylize 50`
+
+`🖌️ Style Low`
+
+`--stylize 100` (default)
+
+`🖌️ Style Med`
+
+`--stylize 250`
+
+`🖌️ Style High`
+
+`--stylize 750`
+
+`🖌️ Style Very High`
+
+  
+
+**Coherency** is the strength of the connection between the text prompt and
+the resulting image. A high degree of coherency means that the image will be
+an accurate representation of the prompt text.
+
+The Midjourney Bot processes jobs on high-end GPUs. Each minute that it takes
+to complete a job is a **GPU minute**. You have a limited amount of GPU
+minutes when in **Fast Mode**. Because image generations may be processed on
+multiple GPUs simultaneously, GPU minutes are not directly connected to the
+time you wait for an image to generate.
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

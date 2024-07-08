@@ -1,0 +1,116 @@
+Working with Images on Web
+
+# Working with Images on Web
+
+#### On midjourney.com, you can easily upload and manage images you want to
+use as references in your prompts. Add images quickly as you work on the
+Create Page, or upload and manage your existing image references on the Manage
+Uploads page.
+
+## Image Upload and Selection
+
+Click the  button in the Imagine bar on any page to open the image selection
+tool:
+
+  
+
+If the image you want to use is already shown, click on it to add it to your
+prompt. By default, it will be added as an image prompt, but you can also
+choose to use it as a style reference or character reference instead with the
+appropriate buttons.
+
+There are several additional things you can do from this screen:
+
+**Choose a file or drop it here:** If the image you want to use isn't already
+shown here, drag and drop it from your computer onto this box, or click and
+navigate through your files to find and add it. The image will appear in the
+grid of images to the right, and will also be added to your current prompt as
+an image reference.
+
+**Hide:** Hide this image from the image selection tool. You can view and
+unhide your hidden uploads from the manage uploads page.
+
+**Describe:** Generate a list of subjects and descriptors based on the image.
+This works similarly to the `/describe` command in Discord, but instead of
+generating several full prompts, it will give you a variety of words and
+phrases to play with. Clicking on one of the generated phrases will add it to
+the end of your current prompt. Click the  Reroll button to generate new
+descriptions, and the  Back button to go back to the image selection tool.
+
+  
+
+* * *
+
+## Using Image References
+
+When you add an image to your prompt, it will be used as an image prompt by
+default, but you can hover over the image to choose a different option:
+
+  
+
+**Character Reference:** Use the selected image as a character reference.
+
+**Style Reference:** Use the selected image as a style reference.
+
+**Image Prompt (Default):** Use the image as an image prompt.
+
+**Remove:** Remove this image from your current prompt.
+
+  
+
+To use the same image in multiple ways in a prompt (for example, as both a
+character reference and a style reference), `Shift + click` on the
+corresponding icons. A darker icon, like the **Image Prompt** icon above,
+means you've chosen that reference type.
+
+  
+
+You can also use the buttons on the right to manage your reference images:
+
+**Lock /** **Unlock:** Your image prompts are unlocked by default, meaning
+they'll clear every time you submit a prompt. Lock them to keep your
+selections between prompts. This will also lock the type of reference. The
+lock icon will turn red to indicate your image references are locked, and your
+selections will stay the same until you make changes or unlock them again. You
+can't lock or unlock references individually.
+
+**Delete:** Removes all image references from your current prompt and closes
+the image selection tool.
+
+  
+
+* * *
+
+## Manage Uploads Page
+
+You can use the Manage Uploads page to organize the images you use frequently
+in your prompts.
+
+Every image you use with Midjourney will be saved to your uploads and appear
+here. This includes images you use with `/describe` and in Discord.
+
+  
+
+Other users can't access your image uploads page, but any image references you
+use will appear with your prompts on the website unless you're generating your
+images in Stealth Mode.
+
+  
+
+  
+
+There are two views on the Manage Uploads page:
+
+**Visible:** These images will appear in the image selection tool when you
+click the  button.
+
+**Hidden:** These images are still saved in your uploads, but won't appear in
+the image selection tool.
+
+You can hide a visible image or unhide a hidden image any time by hovering
+over it and clicking the **Hide** or **Unhide** button, or by clicking on it
+and using the larger buttons beneath the image on the right side of the page.
+
+**Delete:** Remove an image permanently from your uploads. The image will
+still appear with any prompts that used it, and you'll be able to continue
+working with those jobs as normal.

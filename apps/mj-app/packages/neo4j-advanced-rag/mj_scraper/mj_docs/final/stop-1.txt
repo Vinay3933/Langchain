@@ -1,0 +1,69 @@
+Stop
+
+# Stop
+
+#### Use the `--stop` parameter to finish a Job partway through the process.
+Stopping a Job at an earlier percentage can create blurrier, less detailed
+results.
+
+`--stop` accepts values: 10–100.  
+The default `--stop` value is 100.  
+`--stop` does not work while Upscaling.
+
+* * *
+
+## Stop Comparison
+
+prompt example: `/imagine prompt` `splatter art painting of acorns --stop 90`
+
+\--stop 10
+
+\--stop 20
+
+\--stop 30
+
+\--stop 40
+
+\--stop 50
+
+\--stop 60
+
+\--stop 70
+
+\--stop 80
+
+\--stop 90
+
+\--stop 100
+
+  
+
+prompt example: `/imagine prompt` `a wooden inlay oak leaf --stop 50`
+
+\--stop 10
+
+\--stop 20
+
+\--stop 30
+
+\--stop 40
+
+\--stop 50
+
+\--stop 60
+
+\--stop 70
+
+\--stop 80
+
+\--stop 90
+
+\--stop 100
+
+* * *
+
+## How to Change the Stop Percentage
+
+### Use the `--stop` Parameter
+
+Add `--stop <value>` to the end of your prompt.

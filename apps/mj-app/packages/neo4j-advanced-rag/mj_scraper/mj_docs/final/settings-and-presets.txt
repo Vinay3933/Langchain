@@ -1,0 +1,178 @@
+Settings and Presets in Discord
+
+# Settings and Presets in Discord
+
+#### The `/settings` command provides toggle buttons for common options like
+model version, style value, quality value, and upscaler version. Settings also
+has toggles for the `/stealth` and `/public` commands.
+
+  
+
+  
+
+Parameters added to the end of a prompt will override selections made using
+`/settings`.
+
+  
+
+* * *
+
+### Model Version Dropdown
+
+Select the Midjourney Model Version to use when generating images. **Use The
+Latest Model** is the default selection and will always use the newest
+Midjourney Model Version.
+
+`Use the latest Model (V6)` `6️⃣ Mjourney Model V6 [ALPHA]` `🌈 Niji Model V6
+[ALPHA]` `5️⃣ Mjourney Model V5.2` `5️⃣ Mjourney Model V5.1` `🍎 Niji Model V5`
+`5️⃣ Mjourney Model V5.0` `🌈 Niji Model V4` `4️⃣ Mjourney Model V4` `3️⃣
+Mjourney Model V3` `2️⃣ Mjourney Model V2` `1️⃣ Mjourney Model V1`  
+  
+
+### Style Raw Parameter
+
+Midjourney Model Versions 5.1, 5.2, 6, and Niji 6 can be fine-tuned with the
+\--style raw parameter to reduce the Midjourney default aesthetic. This toggle
+is not available if other model versions are selected.
+
+`🔧 Raw Mode`  
+  
+
+### Stylize Parameter
+
+The Midjourney Bot has been trained to produce images that favor artistic
+color, composition, and forms. The \--stylize or --s parameter influences how
+strongly this training is applied. Low stylization values produce images that
+closely match the prompt but are less artistic. High stylization values create
+images that are very artistic but less connected to the prompt.
+
+`🖌️ Stylize Low` `🖌️ Stylize Med` `🖌️ Stylize High` `🖌️ Stylize Very High`
+
+Stylize Low = `--s 50`, Stylize Med = `--s 100`, Stylize High = `--s 250`,
+Stylize Very High = `--s 750`,  
+  
+
+### Public and Stealth Mode
+
+Toggle between Public and Stealth modes. Corresponds to the `/public` and
+`/stealth` commands.
+
+`🧍‍♂️Public`  
+  
+
+### Remix Mode
+
+Use Remix mode to change prompts, parameters, model versions, or aspect ratios
+between variations. Remix will take the general composition of your starting
+image and use it as part of the new Job. Remixing can help change the setting
+or lighting of an image, evolve a subject, or achieve tricky compositions.
+
+`🎛️ Remix`  
+  
+
+### High and Low Variation Mode
+
+Toggle between High Variation and Low Variation mode.
+
+`🎨 High Variation Mode` `🎨 Low Variation Mode`  
+  
+
+### Sticky Style
+
+Sticky Style will save the last `--style` code parameter used in your personal
+suffix, so you don't have to repeat the code on future prompts. Change codes
+by using a new `--style` or unselecting Sticky Style.
+
+`📌 Sticky Style`
+
+  
+
+### Turbo, Fast, and Relax Mode
+
+Toggle between Turbo, Fast and Relaxed modes. Corresponds to the `/turbo`,
+`/fast`, and `/relax` commands and the `--turbo`, `--fast`, and `--relax`
+parameters.
+
+`⚡ Turbo Mode` `🐇 Fast Mode` `🐢 Relax Mode`  
+  
+
+### Reset Settings
+
+Return to default settings: `Use the latest Model (V6)` `🖌️ Stylize Med`. Your
+public/stealth mode, remix, variation, and generation speed preferences are
+unaffected.
+
+`Reset Settings`  
+  
+
+* * *
+
+## Automatically Direct Message Results
+
+Use `/prefer auto_dm` to turn on or off automatic sending of finished jobs to
+your Direct Message.
+
+  
+
+* * *
+
+## Custom Preferences
+
+Create custom options using prefer commands to add commonly used parameters to
+the end of prompts automatically.
+
+  * `/prefer suffix` specify a suffix to add to the end of every prompt.
+  * `/prefer option` Create or manage a custom option.
+  * `/prefer option list` View your current custom options.
+
+  
+
+### Prefer Suffix
+
+`/prefer suffix` automatically appends the specified suffix after all prompts.
+
+Command example: `/prefer suffix` `--ar 16:9 --video`
+
+  
+
+To clear a set suffix, use the `/settings` command and select ` Reset
+Settings`, or use `/prefer suffix` again without adding the optional new_value
+field to the command.
+
+  
+
+### Option Sets
+
+`/prefer option set <name> <value>` command allows you to create a custom
+shortcut, adding multiple parameters or text snippets to your prompts.
+
+`/prefer option set` `mine` `--chaos 5 --aspect 2:3` creates an option called
+"mine" that contains the chaos and aspect ratio parameters.
+
+  
+  
+Using `/imagine prompt` `vibrant California poppies --mine`, is interpreted as
+`/imagine prompt` `vibrant California poppies --chaos 5 --aspect 2:3`.
+
+  
+
+  * You can use multiple option sets in the same prompt.
+  * You can use a mix of prompt text and parameters in your option sets. If you do, all the parameters in the set must go at the end, just like in normal prompting.
+  * Your option set will "expand" where it's placed in your prompts, so you'll need to put all your prompt parameters after your option set.
+
+  
+
+`/prefer option list` list all options created with `prefer option set.` Users
+can have up to 20 custom options.
+
+  
+
+To delete a custom option, use `/prefer option set` `<name to delete>` without
+adding the optional value field to the command.
+
+  
+
+Subscribers can work one-on-one with the Midjourney Bot in Discord's Direct
+Messages instead of a public channel. Images made within your direct messages
+are still subject to content and moderation rules and will be visible on your
+Midjourney website gallery.

@@ -1,0 +1,82 @@
+Stealth Mode
+
+# Stealth Mode
+
+#### Midjourney is an open-by-default community, and all image generations are
+visible at midjourney.com, including images created in private discord
+servers, direct messages, and on the Midjourney web app.
+
+Subscribers to the Pro and Mega plans have access to Stealth Mode. Stealth
+mode prevents your images from being visible to others on the Midjourney
+website. Use the `/stealth` and `/public` commands toggle between Stealth and
+Public mode.
+
+**Stealth Mode Only Prevents Others From Viewing Your Images on
+Midjourney.com!**  
+Images generated in public channels are always visible to other users, even
+when using Stealth Mode. To prevent others from seeing an image you create
+using Stealth Mode, generate images in your Direct Messages or on a private
+Discord server.
+
+If you cancel or downgrade your Midjourney subscription, previously created
+Stealth Mode images will remain unpublished.
+
+  
+
+* * *
+
+## How to Switch to Stealth Mode
+
+Your website and Discord settings are separate. This includes your preference
+of Stealth or Public Mode. Double-check your Discord and website settings
+before generating any images to be sure they're set to the mode you want to
+use.
+
+### In Discord
+
+### Using Commands
+
+Use the `/stealth` as a standalone command in Discord to turn Stealth Mode on.
+Use `/public` to turn it off.
+
+Switching this way will apply your choice to all your future prompts until you
+use a different command to change modes, choose a different mode in your
+settings, or use the opposite parameter in your prompt.
+
+#### Using Settings
+
+Use the `/settings` command to adjust your settings. The `🧍‍♂️Public` button
+can be used to toggle between Stealth and Public mode.
+
+When the `🧍‍♂️Public` button is green, you are making images in Public mode.
+
+When the `🧍‍♂️Public` button is gray, you are making images in Stealth mode.
+
+#### Using Parameters
+
+To override your default visibility mode for a specific prompt, you can add
+the `--stealth` or `--public` parameter to the end.
+
+#### Using `/info` to check if you are in Stealth Mode
+
+Use the `/info` command to see information about your account. **Visibility**
+shows whether you are currently in Public or Stealth Mode.
+
+### On the Website
+
+#### Website Settings
+
+You can toggle Stealth Mode on and off in the website Settings menu:
+
+A red `On` button means Stealth Mode is enabled. A gray `Off` button means
+Public Mode is enabled. Click the button to toggle between them.
+
+Your choice will apply to all your prompts unless you use the opposite
+`--stealth` or `--public` parameter in an individual prompt.
+
+#### Publishing and Unpublishing Existing Images
+
+If your current subscription plan includes Stealth Mode, you can also publish
+or unpublish existing images on the website by using the bulk actions menu
+from your Archive page or the  Options menu from within an individual image
+view.

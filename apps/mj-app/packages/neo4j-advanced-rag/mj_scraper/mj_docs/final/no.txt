@@ -1,0 +1,58 @@
+No
+
+# No
+
+#### The No parameter tells the Midjourney Bot what not to include in your
+image.
+
+`--no` accepts multiple words separated with commas: `--no item1, item2,
+item3, item4`
+
+  
+
+### `--No` Comparison
+
+`still life gouache painting`
+
+a range of objects appear in the still life
+
+`still life gouache painting --no fruit`
+
+The still life has fewer fruits
+
+  
+
+### `--no` vs. Don't
+
+The Midjourney Bot considers every word in the prompt as a potential element
+for the image. Prompting `still life gouache painting without any fruit` or
+`still life gouache painting, please dont add fruit!` are _more_ likely to
+produce pictures that include fruits because the relationship between
+"without" or "don't" and the "fruit" is not interpreted by the Midjourney Bot
+in the same way a human reader would understand it. To improve your results,
+focus your prompt on what you do want to see in the image and use the "--no"
+parameter to specify concepts you don't want to include.
+
+`still life gouache painting`
+
+A range of objects appear in the still life.
+
+`still life gouache painting, please don't add fruit!`
+
+_More_ fruit is present in the final image.
+
+  
+
+## Multi Prompting
+
+The `--no` parameter is the same as weighing part of a multi prompt to "-.5"
+`still life gouache painting:: fruit::-.5` is the same as `still life gouache
+painting --no fruit`.
+
+  
+
+* * *
+
+## How to Use the No Paramter
+
+Add `--no item1, item2, item3` to the end of your prompt.

@@ -1,0 +1,106 @@
+Multi Prompts
+
+# Multi Prompts
+
+#### The Midjourney Bot can blend multiple concepts using :: as a separator.
+Using a multi-prompt allows you to assign relative importance to the concept
+in the prompt, helping you control how they are blended together.
+
+## Multi-Prompt Basics
+
+Adding a double colon `::` to a prompt indicates to the Midjourney Bot that it
+should consider each part of the prompt individually. For the prompt `space
+ship` both words are considered together, and the Midjourney Bot produces
+images of sci-fi spaceships. If the prompt is separated into two parts,
+`space:: ship`, both concepts are considered separately, then blended together
+creating a sailing ship traveling through space.  
+  
+
+There is no space between the double colons `::`  
+Multi-prompts work with Model Versions `1`, `2`, `3`, `4`, `'5`, `niji`, and
+`niji 5`  
+Any parameters are still added to the very end of the prompt.
+
+  
+
+### `space ship`
+
+ _space ship_ is considered as a single thought.
+
+### `space:: ship`
+
+ _space_ and _ship_ are considered separate thoughts
+
+`cheese cake painting`
+
+ _cheese cake painting_ is considered together, producing a painted image of a
+cheesecake.
+
+`cheese:: cake painting`
+
+ _cheese_ is considered separately from _cake painting_ , producing images of
+painted cakes made of cheeses.
+
+`cheese:: cake:: painting`
+
+ _cheese_ , _cake_ , and _painting_ are considered separately, producing
+tiered cakes, made of cheeses with common classical painting compositions and
+elements.
+
+## Prompt Weights
+
+When a double colon `::` is used to separate a prompt into different parts,
+you can add a number immediately after the double colon to assign the relative
+importance to that part of the prompt.
+
+In the example below, the prompt `space:: ship` produced a sailing ship
+traveling through space. Changing the prompt to `space::2 ship` makes the word
+**space** twice as important as the word ship, producing images of space that
+have ships as a supporting element.
+
+[Model Versions] `1`, `2`, `3` only accept whole numbers as weights  
+[Model Versions] `4`, `niji 4`, `niji 5`, `5`, `5.1`, and `5.2` and can accept
+decimal places for weights  
+Non-specified weights default to 1.
+
+### `space:: ship`
+
+ _space_ and _ship_ are considered as separate thoughts
+
+### `space::2 ship`
+
+ _space_ is twice as important as _ship_
+
+**Weights are normalized:**  
+`space:: ship` is the same as `space::1 ship`, `space:: ship::1`,`space::2
+ship::2`, `space::100 ship::100`, etc.  
+`cheese::2 cake` is the same as `cheese::4 cake::2`, `cheese::100 cake::50`
+etc.  
+`cheese:: cake:: painting` is the same as `cheese::1 cake::1 painting::1`,
+`cheese::1 cake:: painting::`, `cheese::2 cake::2 painting::2` etc.
+
+  
+
+* * *
+
+### Negative Prompt Weights
+
+Negative weights can be added to parts of a multi-prompt to help remove
+unwanted elements.  
+The sum of all weights must be a positive number.
+
+`still life gouache painting`
+
+a range of objects appear in the still life
+
+`still life gouache painting:: fruit::-.5`
+
+The still life has fewer fruits
+
+  
+
+### The `--no` Parameter
+
+The `--no` parameter is the same as weighing part of a multi prompt to "-.5"
+`vibrant tulip fields:: red::-.5` is the same as `vibrant tulip fields --no
+red`.

@@ -1,0 +1,212 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Fast, Relax, & Turbo Modes
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Fast, Relax, & Turbo Modes
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### Midjourney uses powerful Graphics Processing Units (GPUs) to interpret
+and process each prompt. When you purchase a subscription to Midjourney, you
+are purchasing time on these GPUs.
+
+Different subscription plans have different amounts of monthly GPU time.  
+This monthly subscription GPU time is **Fast Mode** time. Fast Mode tries to
+give you access to a GPU instantly. It's the default processing tier and uses
+your subscription's monthly GPU time.
+
+  
+
+* * *
+
+### How many GPU minutes do my generations cost?
+
+The Average Job the Midjourney bot processes takes about one minute of GPU
+time to finish creating an image. Upscaling an image, using nonstandard aspect
+ratios, or older Midjourney Model Versions may take more time. Creating
+variations or using lower quality values will take less time.
+
+A Job's time depends on the following factors:
+
+| \+ Lower Time| ++ Average Time| +++ Higher Time  
+---|---|---|---  
+Job Type| Variations| `/imagine`| Upscale  
+Aspect Ratio| default (square)| tall or wide|  
+Quality Parameter| `--q 0.25` or `--q 0.5`| default (`--q 1`)| `--q 2` (for
+legacy Model Versions)  
+Stop Parameter| `--stop 10`–`--stop 99`| default (`--stop 100`)|  
+  
+  
+
+Use `/info` before and after running a process to see how many of your
+remaining GPU minutes the generation used.
+
+  
+
+* * *
+
+## Fast vs. Relax Mode
+
+Subscribers to the Standard, Pro, and Mega plans can create an unlimited
+number of images each month in Relax Mode. Relax Mode will not cost any GPU
+time, but Jobs will be placed into a queue based on how much you've used the
+system.
+
+### How long do I need to wait in Relax mode?
+
+Jobs in Relax mode are placed in a queue to be processed as GPUs become
+available. Wait times for Relax are dynamic but generally range between 0–10
+minutes per job. If you use Relax mode occasionally, you will have shorter
+wait times compared to subscribers that have used it more. This priority
+currently resets whenever you renew your monthly subscription.
+
+### Limitations
+
+Permutation prompts, the \--repeat parameter and the Legacy upscaler, Max
+Upscale are not available while useing Relax mode.
+
+### Run Out of Fast Time?
+
+You can purchase more Fast Hours on your Midjourney.com/accounts page.
+
+By default, images are generated using Fast Mode.  
+Unused monthly Fast GPU time does not roll over.  
+Fast Mode is automatically reactivated when the subscription renews.
+
+  
+
+* * *
+
+## Turbo Mode
+
+Turbo Mode is available for subscribers who want extremely quick image
+generation. Turbo mode uses a high-speed experimental GPU pool. Jobs run in
+Turbo mode generate up to four times faster but consume twice as many
+subscription GPU minutes as a typical Fast Mode Job.
+
+Turbo mode is only available with Midjourney Model Versions 5, 5.1, 5.2, and
+6.
+
+If Turbo mode is selected, but the GPUs are unavailable, or it is incompatible
+with the selected model version, your job will run in Fast Mode instead.
+
+Turbo Mode is an experimental feature, and availability and price may change
+at any time.
+
+  
+
+* * *
+
+## How to Switch Between Modes
+
+All users have access to Fast and Turbo Modes. Only Standard, Pro, and Mega
+Plan subscribers can use Relax Mode.
+
+Your website and Discord settings are separate. This includes your preference
+of Relax, Fast, or Turbo Mode. Double-check your Discord and website settings
+before generating any images to be sure they're set to the mode you want to
+use.
+
+### In Discord
+
+#### Using Commands
+
+Use `/relax`, `/fast`, or `/turbo` as a standalone command in Discord to
+switch between image generation speeds.
+
+Switching this way will apply your choice to all your future prompts until you
+use a different command to change modes, choose a different mode in your
+settings, or use a different mode parameter in your prompt.
+
+  
+
+#### Using Settings
+
+Use the `/settings` command and choose `🐢 Relax` `🐇 Fast` or `⚡ Turbo` from
+the menu.
+
+  
+
+#### Using the `--relax` `--fast` or `--turbo` parameters
+
+To override your default generation speed for a specific prompt, you can add
+the `--fast`, `--relax`, or `--turbo` parameter at the end.
+
+### Website Settings
+
+You can choose between Stealth and Public modes as your default "Speed" with
+buttons in the website Settings menu:
+
+  
+
+Your current default Speed will be highlighted in red.
+
+The Speed you set here will apply to all your prompts unless you specify a
+different one using the `--relax` or `--fast` or `--turbo` parameter in an
+individual prompt.
+
+A **Job** is any action that uses the Midjourney Bot. **Jobs** include using
+`/imagine` to create an initial image grid, upscaling images, and creating
+variations of images.
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

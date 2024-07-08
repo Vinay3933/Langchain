@@ -1,0 +1,123 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Variations
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Variations
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### Use the `V1` `V2` `V3` `V4` buttons under each image grid, or use the
+`Vary (Strong)` and `Vary (Subtle)` buttons under an upscaled image to
+generate different versions of that image.
+
+  * The `V` buttons correspond to the images in each generated grid from left to right, top to bottom, like this: 🔢.
+  * Control your default amount of variation when using the `V` buttons with the `🎨 High Variation Mode` and `🎨 Low Variation Mode` in your settings. `🎨 High Variation Mode` is the default.
+  * You can also use the `/prefer variability` command to toggle between High and Low Variation Modes.
+  * Under upscaled images, the `🪄 Vary (Strong)` button corresponds to `🎨 High Variation Mode`, while `🪄 Vary (Subtle)` corresponds to `🎨 Low Variation Mode`. These buttons ignore your personal settings.
+
+  
+
+Want to change your prompt while you make variations? Enable `Remix Mode` in
+your settings. Learn more about using Remix Mode and how it interacts with
+your variation settings here.
+
+  
+
+* * *
+
+## Variation Examples
+
+When using Midjourney Version 5 or 6, or Niji Version 5 or 6, you can choose
+between High and Low variation modes.
+
+The default `🎨 High Variation Mode` will produce new images that vary from the
+original image in composition, number of elements, colors, and types of
+details. To use High Variation Mode, click a `V` button beneath a grid while
+you have it selected in settings, or click the `🪄 Vary (Strong)` button
+beneath an upscaled image.
+
+`🎨 Low Variation Mode` will produce new images that retain the composition and
+colors of the original, but with subtle changes to the image details. To use
+Low Variation Mode, select it in `/settings` and click the `V` button
+corresponding to the iamge you want to vary, or click the `🪄 Vary (Subtle)`
+button beneath an upscaled image.
+
+  
+
+Prompt example: `/imagine prompt` `a cute robot holding flowers`
+
+##### Original Upscaled Image
+
+##### Image grid using `🪄Vary (Subtle)`
+
+##### Image grid using `🪄Vary (Strong)`
+
+  
+
+Prompt example: `/imagine prompt` `a bird watching a butterfly`
+
+##### Original Upscaled Image
+
+##### Image grid using `🪄Vary (Subtle)`
+
+##### Image grid using `🪄Vary (Strong)`
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

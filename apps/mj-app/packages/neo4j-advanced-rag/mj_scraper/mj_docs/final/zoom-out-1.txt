@@ -1,0 +1,84 @@
+Zoom Out
+
+# Zoom Out
+
+#### The Zoom Out option allows you to extend the canvas of an upscaled image
+beyond its original boundaries without changing the content of the original
+image. The newly expanded canvas will be filled-in using guidance from the
+prompt and the original image.
+
+`Zoom Out` does not increase the maximum 1024px x 1024 px size of an image.
+
+* * *
+
+## Zoom Out
+
+`🔎 Zoom Out 2X` `🔎 Zoom Out 1.5X` buttons will appear after upscaling an
+image.
+
+  
+
+Prompt: vibrant California poppies
+
+##### `Starting Image`
+
+##### `Zoom Out 1.5X`
+
+##### `Zoom Out 2X`
+
+  
+
+* * *
+
+## Make Square
+
+With `Make Square` you can adjust the aspect ratio of a non-square image to
+make it square. If the original aspect ratio is wide (landscape), it will be
+expanded vertically. If it is tall (portrait), it will be expanded
+horizontally. The emoji `↔️` `↕️` next to the `↔️ Make Square` button also
+indicates which way the image will be expanded. The `↔️ Make Square` button
+will appear underneath non-square upscaled images.
+
+  
+
+Prompt: vibrant California poppies
+
+`Starting Image`
+
+`↕️ Make Square`
+
+`Starting Image`
+
+`↔️ Make Square`
+
+  
+
+* * *
+
+## Custom Zoom
+
+The `🔎 Custom Zoom` button lets you choose how much to zoom out on an image.
+`🔎 Custom Zoom` button under an upscaled image will pop up a dialogue box
+where you enter a custom value for `--zoom`. `--zoom` accepts values between
+1-2.
+
+Change the Aspect Ratio of an Upscaled Image
+
+You can use `--zoom 1` in this `Custom Zoom` pop-up box to change the aspect
+ratio, with the `--ar parameter`, without zooming out.
+
+  
+
+### Change Your Prompt with Custom Zoom
+
+`🔎 Custom Zoom` allows you to change the prompt before you expand your image,
+giving you finer control over the finished image. For example, changing the
+prompt to "A framed picture on the wall" gives this result:
+
+##### `Starting Image`
+
+prompt: vibrant California poppies
+
+##### `Custom Zoom + Changed Prompt`
+
+`Zoom Out` prompt: A framed picture on the wall --zoom 2

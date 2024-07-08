@@ -1,0 +1,307 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Quick Start
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Quick Start
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### Use the Midjourney bot to generate stunning images from simple text
+prompts in seconds. Work directly in Discord. No specialized hardware or
+software is required.
+
+Code of Conduct
+
+  * Don't be a jerk.
+  * Don't use our tools to make images that could inflame, upset, or cause drama. That includes gore and adult content.
+  * Be respectful to other people and the team.
+
+  
+
+* * *
+
+## Making Images with Midjourney
+
+  
+
+### 1\. Log In To Discord
+
+Access the Midjourney Bot through Discord via web browser, mobile app, or
+desktop app. Ensure you have a **verified** Discord account before joining the
+Midjourney Discord server.
+
+**Follow these guides to create or verify your Discord account:**  
+Create Discord Account  
+Verify Discord Account
+
+  
+
+### 2\. Subscribe to a Midjourney Plan
+
+To start generating images with Midjourney, you'll need to subscribe to a
+plan.
+
+  * Visit Midjourney.com.
+  * Log in using your **verified** Discord account.
+  * Choose a subscription plan that suits your needs.
+
+Go to Subscription Plans for information on pricing and the features available
+with each tier.
+
+  
+
+### 3\. Join the Midjourney Server on Discord
+
+To start interacting with the Midjourney Bot, join the Midjourney Server
+
+  * Open Discord and locate the server list on the left-hand sidebar.
+  * Press the `+` button at the bottom of the server list.
+  * In the pop-up window, click the `Join a Server` button.
+  * Paste or type the following URL: http://discord.gg/midjourney and press `Join`.
+
+For additional information, Learn more about Discord servers.
+
+  
+
+### 4\. Go to any #General or #Newbie Channel
+
+After joining the Midjourney server on Discord, you'll see several channels
+listed in the sidebar.
+
+### On the Midjourney Server
+
+Locate and select any channel labeled `general-#` or `newbie-#`. These
+channels are designed for beginners to start using the Midjourney Bot. The
+Midjourney Bot will not generate images in other channels.
+
+### On Other Servers
+
+You can generate images with the Midjourney Bot on any Discord server that has
+invited the Midjourney Bot. Look for instructions on your server on where to
+use the Bot.
+
+  
+
+### 5\. Use the /imagine Command
+
+**About Discord Commands**  
+Interact with the Midjourney Bot on Discord using a Command. Commands are used
+to create images, change default settings, monitor user info, and perform
+other helpful tasks. The `/imagine` command generates a unique image from a
+short text description (known as a Prompt). Learn more about Prompts
+
+  
+
+**How to Use`/imagine`**
+
+  * Type '/imagine prompt:' in the message field. You can also select the `/imagine` command from the list of available slash commands that pop up when you type '/'.
+  * Type a description of the image you want to create in the `prompt` field.
+  * Send your message. The Bot will interpret your text prompt and begin generating the images.
+  * Respect the Community Guidelines. Community guidelines apply wherever the Midjourney Bot is used.
+
+  
+
+### 6\. Accept the Terms Of Service
+
+Before generating any images, the Midjourney Bot will prompt you to accept the
+Terms Of Service. You must agree to these terms to proceed with image
+creation.
+
+  
+
+### 7\. Image Generation Process
+
+After submitting a text prompt, the Midjourney Bot processes your request,
+creating four unique image options within a minute. This process utilizes
+advanced Graphics Processing Units (GPUs), and each image generation counts
+towards the GPU time included with your Midjourney subscription. To monitor
+your available GPU time (Fast Time Remaining) use the `/info` command.
+
+  
+
+### 8\. Select an Image or Create Variations
+
+Once your initial image grid has been generated, two rows of buttons become
+available underneath your image grid.
+
+`U1` `U2` `U3` `U4` Image Selection
+
+In earlier versions of Midjourney, the `U` buttons were used for upscaling
+images. With the latest model, images are immediately generated at 1024 x 1024
+pixels size. Now, the 'U' buttons help you separate out your chosen image from
+the grid, making it easier to download and giving you access to additional
+editing and generation tools.
+
+  
+
+`🔄` Re-run or Re-roll a Job
+
+The `🔄` button re-runs a Job. In this case, it would re-run the original
+prompt producing a new grid of images.
+
+  
+
+`V1` `V2` `V3` `V4` Image Variation
+
+The `V` buttons are used to create variations of the selected image. Each
+button generates a new image grid that maintains the general style and
+composition of the selected image.
+
+  
+
+### 9\. Enhance or Modify Your Image
+
+After singling out an image, an expanded set of options becomes available.
+
+`🪄 Vary (Strong)` `🪄 Vary (Subtle)`
+
+Create a stronger or subtle variation of your selected image, generating a new
+grid of four options.
+
+`🔍 Zoom Out 2x` `🔍 Zoom Out 1.5x` `🔍 Custom Zoom`
+
+Zoom Out of your image, extending the canvas its original boundaries without
+changing the content of the original image. The newly expanded canvas will be
+filled-in using guidance from the prompt and the original image.
+
+`⬅️` `➡️` `⬆️` `⬇️`
+
+The Pan buttons allow you to expand the canvas of an image in a chosen
+direction without changing the content of the original image. The newly
+expanded canvas will be filled in using guidance from the prompt and the
+original image.
+
+`❤️ Favorite`
+
+tag your best images to easily find them on the Midjourney website.
+
+`Web ↗️`
+
+Open the image in your gallery on midjourney.com
+
+  
+
+### 10\. Save Your Image
+
+Click on the image to open it to full size, and then right-click and choose
+`Save image`. On mobile, long-tap the image and then tap the download icon in
+the top right corner.
+
+All images are immediately available to view on midjourney.com/imagine
+
+  
+
+* * *
+
+## Next Steps
+
+**Direct Messaging the Midjourney Bot**  
+Are you having difficulty finding yourself while working with other users on
+the Midjourney server? You can interact with the Midjourney Bot one-on-one in
+a direct message. Images created within your direct messages are still subject
+to content and moderation rules and are visible on the Midjourney website.
+
+**Learn More About Prompts**  
+Learn how to write effective and creative prompts,  
+Explore how descriptions of artistic mediums, locations, and time periods
+change an image.
+
+**Blend Your Own Images**  
+Learn how to upload and blend your own images using the `/blend` command.
+
+  
+
+* * *
+
+## Midjourney Bot Assistance
+
+Need help or have questions? Try these commands:  
+`/help` Displays useful information and tips about the Midjourney Bot.  
+`/ask` Provides answers to questions about the Midjourney Bot.
+
+You can also visit the #support channel on the Midjourney Discord for
+additional assistance.
+
+  
+
+* * *
+
+## Billing and Subscription Queries
+
+For billing and subscription questions, please visit help.midjourney.com.
+
+You can interact with the Midjourney Bot on Discord by typing a Command.
+Commands are used to create images, change default settings, monitor user
+info, and perform other helpful tasks.
+
+Midjourney Commands can be used in any Bot Channel, on private Discord servers
+where the Midjourney Bot has been permitted to operate, or in a direct message
+with the Midjourney Bot.
+
+A Prompt is a short text phrase that the Midjourney Bot interprets to produce
+an image. The Midjourney Bot breaks down the words and phrases in a prompt
+into smaller pieces, called tokens, that can be compared to its training data
+and then used to generate an image. A well-crafted prompt can help make unique
+and exciting images.
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

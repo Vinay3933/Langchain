@@ -1,0 +1,160 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Prompts
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Prompts
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### A prompt is a short text phrase that the Midjourney Bot interprets to
+produce an image. The Midjourney Bot breaks down the words and phrases in a
+prompt into smaller pieces, called tokens, that are compared to its training
+data and then used to generate an image. A well-crafted prompt can help make
+unique and exciting images.
+
+## Basic Prompts
+
+A basic prompt can be as simple as a single word, phrase or emoji 😊.
+
+  
+
+Prompting Tip!
+
+The Midjourney Bot works best with simple, short phrases that describe what
+you want to see. Avoid long lists of requests and instructions. Instead of:
+**Show me a picture of lots of blooming California poppies, make them bright,
+vibrant orange, and draw them in an illustrated style with colored pencils**
+Try: **Bright orange California poppies drawn with colored pencils**
+
+  
+
+* * *
+
+## Advanced Prompts
+
+More advanced prompts can include one or more image URLs, multiple text
+phrases, and one or more parameters
+
+`Image Prompts`
+
+Image URLs can be added to a prompt to influence the style and content of the
+finished result. Image URLs always go at the front of a prompt.
+
+Read more about Image Prompts
+
+`Text Prompt`
+
+The text description of what image you want to generate. See below for
+prompting information and tips. Well-written prompts help generate amazing
+images.
+
+`Parameters`
+
+Parameters change how an image generates. Parameters can change aspect ratios,
+models, upscalers, and lots more. Parameters go at the end of the prompt.
+
+Read more about Parameters
+
+  
+
+* * *
+
+## Prompting Notes
+
+### Word Choice
+
+Word choice matters. More specific synonyms work better in many circumstances.
+Instead of big, try tiny, huge, gigantic, enormous, or immense.
+
+### Plural words and Collective Nouns
+
+Plural words leave a lot to chance. Try specific numbers. "Three cats" is more
+specific than "cats." Collective nouns also work, “flock of birds” instead of
+"birds.”
+
+### Focus on What You Want
+
+It is better to describe what you want instead of what you don’t want. If you
+ask for a party with “no cake,” your image will probably include a cake. To
+ensure an object is not in the final image, try advanced prompting using the
+`--no` parameter.
+
+### Prompt Length and Details
+
+Prompts can be simple. A single word or emoji will work. However, short
+prompts rely on Midjourney’s default style, allowing it to fill in any
+unspecified details creatively. Include any element that is important to you
+in your prompt. Fewer details means more variety but less control.
+
+**Try to be clear about any context or details that are important to you.
+Think about:**
+
+  * **Subject:** _person, animal, character, location, object_
+  * **Medium:** _photo, painting, illustration, sculpture, doodle, tapestry_
+  * **Environment:** _indoors, outdoors, on the moon, underwater, in the city_
+  * **Lighting:** _soft, ambient, overcast, neon, studio lights_
+  * **Color:** _vibrant, muted, bright, monochromatic, colorful, black and white, pastel_
+  * **Mood:** _sedate, calm, raucous, energetic_
+  * **Composition:** _portrait, headshot, closeup, birds-eye view_
+
+* * *
+
+ __
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

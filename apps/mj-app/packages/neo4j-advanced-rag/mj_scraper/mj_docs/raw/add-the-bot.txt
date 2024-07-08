@@ -1,0 +1,127 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Add the Bot to Your Server
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Add the Bot to Your Server
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### Add the Midjourney Bot to any Discord Server to create with friends, or
+make a personal Discord Server to organize your work.
+
+  * Midjourney images generated on private servers are still subject to Midjourney's Community Guidelines.
+  * Images generated on private servers are still visible to other users on midjourney.com unless they're generated in Stealth Mode.
+  * To use the Midjourney Bot in any server, you must have an active Midjourney subscription.
+
+  
+
+* * *
+
+## Create Your Own Server
+
+It's easy to create your own private Discord server to organize your work,
+notes and inspiration. Learn how to create your own Discord Server.
+
+  
+
+## Add App
+
+Select the Midjourney Bot from the User List, and then click **Add App** :
+
+You can also add the Midjourney Bot to a server using the `Add to Server`
+button on its page in Discord's App Directory.
+
+  
+
+Choose your server from the **Select a Server** drop down
+
+Click **Authorize**
+
+* * *
+
+## Bot Management
+
+### Restrict the Bot to Specific Channels
+
+If you do not want the Midjourney Bot to be usable in specific channels, go to
+**Edit Channel** , select the **Permissions** tab, select **@everyone** under
+**Roles/Members** and **_Uncheck_ "Use Application Commands."** Users who try
+to use the Midjourney Bot in a channel with these permissions disabled will
+not see the command.
+
+For more granular control, go to **Settings** , select **Integrations** , the
+**Permissions** tab, the **\+ for the Midjourney Bot** , and **Manage
+Integration.** `slash command` permissions can then be set for individual
+roles and channels.
+
+  
+
+### Get Status Updates and Announcements on Your Server
+
+Follow the Midjourney Official Discord #announcements, #community updates, and
+#status channels on your server to stay up-to-date with Midjourney.  
+  
+
+  
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

@@ -1,0 +1,56 @@
+Direct Messages
+
+# Direct Messages
+
+#### Midjourney subscribers can work one-on-one with the Midjourney Bot in
+their Discord Direct Messages.
+
+Images generated in your direct messages are still subject to content and
+moderation rules. They will be visible to other users on the Midjourney
+website unless you're generating them in Stealth Mode.
+
+  
+
+* * *
+
+## How to Message the Bot
+
+  * Click on the Midjourney Bot from the Member List (or anywhere you see the Midjourney Bot's name)
+  * Send any message to the Midjourney Bot.
+  * This will begin your Direct Message conversation with the Midjourney Bot.
+
+  
+
+### Find Your Direct Messages
+
+If you accidentally closed or archived your direct message with the Midjourney
+Bot, send the bot another message to recover it.
+
+  
+
+### Discord Mobile
+
+### Discord Desktop
+
+  
+
+* * *
+
+## Troubleshooting
+
+If you don’t see messages from the Bot, adjust your privacy settings:
+
+### Discord Desktop
+
+  * Right-click the Midjourney server icon
+  * Select **More Options**
+  * Toggle "Allow direct messages from server members." on
+
+### Discord Mobile
+
+  * Long-press the Midjourney server icon
+  * Select **Privacy Settings**
+  * Scroll down to the "Allow direct messages from server members" toggle.
+
+  * The Member List appears on the right side of the screen on the desktop version of Discord. If you don't see it, click the "Show Member List" icon next to the Discord search bar:
+  * On mobile, while looking at any channel in the Midjourney server, tap the channel name to see a list of members.

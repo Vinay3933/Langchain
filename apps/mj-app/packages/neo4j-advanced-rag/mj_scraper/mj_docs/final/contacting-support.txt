@@ -1,0 +1,29 @@
+Contacting Support
+
+# Contacting Support
+
+#### Most issues can be resolved without needing manual intervention. If
+you're still stuck, follow the instructions below to get help.
+
+Self-Help
+
+Use the `/ask` command to get answers to many common support questions.
+
+  
+
+* * *
+
+## Tech Support and General Questions
+
+We provide support directly within Discord if you have an issue with the
+Midjourney Bot or Midjourney.com website. You can find help in the `#support`
+channel, just above the newbies rooms. Volunteers and helpful community
+members run this channel and can't assist with billing issues.
+
+  
+
+## Billing Support
+
+Billing and Subscription Help
+
+For billing and subscription questions, please visit help.midjourney.com.

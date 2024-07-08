@@ -1,0 +1,140 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Data Deletion and Privacy FAQ
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Data Deletion and Privacy FAQ
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+## Data Deletion
+
+To request to delete your account and data, visit
+https://www.midjourney.com/account. Follow the instructions listed in the "How
+can I delete my account?" section at the bottom of the page.  
+Your data will be marked for deletion, and your subscription will be
+cancelled.  
+To avoid inadvertent data deletion, you will have 30 days to reverse your
+request.
+
+## Privacy FAQ
+
+Last Updated: October 2, 2023
+
+### What information does Midjourney collect from users?
+
+We collect information that you provide to us while interacting with our
+services. This may include personal information that could be used to identify
+you, such as your username, the text or image prompts that you input, public
+chats, IP address, billing information for Stripe, your contact information,
+email address, and any other information that you share with us.
+
+### How long is personal data stored?
+
+We only keep the information that you share with us for as long as necessary
+to serve an allowable purpose under the data protection regulations that apply
+to you. Some of these purposes include: providing you with the Midjourney
+services, maintaining and improving upon these services, helping you manage
+your account and the features that you can access, and other purposes laid out
+in our Privacy Policy. There may also be legal obligations that we need to
+comply with that may impact how long we retain your personal data.
+
+### Where is the personal data on Discord stored?
+
+Discord is in control of all data you store on Discord. Please consult the
+Discord Privacy Policy for more information.
+
+### Where is the personal data that Midjourney handles stored?
+
+The personal information you provide is stored on Midjourney servers in the
+US. We take careful measures to make sure that your personal information is
+treated securely, and that your information is not transferred to an
+organization or country that does not have the adequate measures in place to
+ensure its security.
+
+### Does Midjourney sell personal data?
+
+No. We do not sell your personal information.
+
+### Who can submit a request to delete personal data?
+
+If you use or have used the Midjourney services, you can submit a request to
+delete your personal data. There is no need for you to reside in or have used
+our services in any particular locations.
+
+### What information does Midjourney need in order to process a data deletion
+request?
+
+In order to process your data deletion request, we need some information from
+you to help us locate the data, such as your username and email address
+associated with your account. Please review our data deletion request form for
+more information.
+
+### How long does a data deletion request take?
+
+We will do our best to respond to your data deletion request within 45 days
+once we receive it. If we need more time, we will let you know, and you should
+hear back from us within 90 days. Once we are able to confirm that we possess
+the data you are requesting we delete, we will remove this information from
+our system within 1-2 weeks.
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

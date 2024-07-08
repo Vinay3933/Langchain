@@ -1,0 +1,141 @@
+Style Reference
+
+# Style Reference
+
+#### You can use images as style references in your prompt to influence the
+style or aesthetic of images you want Midjourney to make.
+
+To add style references to a prompt, use the --sref parameter with the web
+address (URL) where the image is stored online: `--sref URL`
+
+  
+
+  * Style references only apply to prompts that include text–they can’t be used with image-only prompts.
+  * You can also use prompt text to reinforce your style reference, and may need to with tricky styles.
+  * Any regular image prompts must go before `--sref`
+  * You can use multiple style references: `--sref URL1 URL2 URL3`
+  * You can also use `--sref random` to apply a random style to your images.
+  * `--sref` can be used with Midjourney and Niji Version 6
+
+  
+
+Privacy Notes
+
+  * Upload images in your direct messages with the Midjourney Bot to prevent other server users from seeing an image.
+  * Image prompts and references are visible on the Midjourney website unless you're generating in Stealth Mode.
+
+  
+
+### See the Image Prompts page for help using image URLs in your prompts on
+Discord, or the Using Image References on Web page for help using all kinds of
+image references on midjourney.com.
+
+  
+
+* * *
+
+## Examples
+
+`Reference Image: CatSketch.png`
+
+  
+
+`Prompt: a cat`
+
+`Prompt: a cat --sref https://url.com/CatSketch.png`
+
+  
+
+* * *
+
+## Style Weight Parameter
+
+Use the style weight parameter `--sw` to set the strength of stylization.
+`--sw` accepts values from 0 to 1000. `--sw 100` is default.
+
+prompt example: `/imagine prompt` `a cat --sref https://url.com/CatSketch.png`
+
+##### ``--sw 50``
+
+##### ``--sw 100``
+
+##### ``--sw 800``
+
+  
+
+Individual style references can also be assigned different weights: `--sref
+URL1::2 URL2::1 URL3::1`
+
+See the Multi Prompts page for more information about the relative importance
+between parts of a prompt.
+
+  
+
+* * *
+
+## Style Reference Versions
+
+There are four versions of the style reference feature. Use the `--sv`
+parameter to choose between them. `--sv 4` is default.
+
+`--sv 1` The original style reference algorithm, more “vibey”  
+`--sv 2` The second iteration of style references  
+`--sv 3` An updated version of the more “vibey” --sv 1  
+`--sv 4` An updated version of --sv 2
+
+  
+
+##### ``--sv 1``
+
+##### ``--sv 2``
+
+##### ``--sv 3``
+
+##### ``--sv 4``
+
+  
+
+* * *
+
+## Random Style References
+
+You can use --sref random to randomly select a style from an abstract range
+that Midjourney knows how to generate.
+
+  
+
+  * Rerolling 🔄 or making variations of a job with --sref random will generate different images with the same random style as the parent grid.
+  * Each job from a permutation or `--repeat` prompt with --sref random will use a different random style.
+  * After you submit your prompt, "random" will be replaced with a style reference seed you can use to replicate that style in future prompts.
+  * `--sw` works with random style references to control how strongly the random style influences the results.
+  * You can't combine random style references or style reference seeds with each other or with URL style references.
+
+  
+
+### Examples:
+
+##### ``a cat --sref random``
+
+##### ``a cat --sref random``
+
+##### ``a cat --sref random``
+
+##### ``a cat --sref random``
+
+  
+
+### Style Reference Seeds
+
+In your completed job, the "random" value will be replaced with a style
+reference seed number: `--sref random` ➡️ `--sref 762351716`. You can use that
+style reference seed in future prompts to generate images in the same style.
+
+  
+
+##### `a cute cat --sref 762351716`
+
+##### `a cute rubber duck --sref 762351716`
+
+##### `a cute owl --sref 762351716`
+
+##### `a cute turtle --sref 762351716`

@@ -1,0 +1,184 @@
+Archive Page
+
+# Archive Page
+
+#### Search and manage all the images you've generated with Midjourney from
+your Archive page.
+
+All the images you've made with Midjourney appear on your Archive page, with
+the most recent images at the top. You can search or filter your Archive to
+find what you're looking for or create folders to keep your images organized.
+You can also use your Archive page to perform bulk actions, like downloading
+multiple images.
+
+  
+
+  * If you're generating your images in Stealth Mode, they will appear in your Archive on the website, but they **won't** be visible to other Midjourney users.
+  * Deleting an image by reacting to it with ❌ in Discord deletes that image from your Archive. This is the only way to remove images completely from the website. Once you've ❌ed an image, it can't be restored.
+  * Hiding an image on the website removes it from your Archive, but those images can still be viewed by other Midjourney users. Hiding an image is not the same as Unpublishing it with Stealth Mode.
+
+  
+
+* * *
+
+## Creating, Searching, and Organizing Images
+
+  
+
+### 1\. Imagine Bar
+
+Enter prompts, manage image references, and adjust your settings from the
+imagine bar. For more information on how website image creation works, visit
+the Create Page documentation.
+
+### 2\. Search Prompts
+
+Search images you've created with Midjourney. You can search for prompt text
+(for example `cyberpunk cats`) or parameters (like `--chaos 100`). Unlike on
+the Explore page, only images you created will appear as search results here.
+
+### 3\. Organize
+
+Reveal or hide the organization sidebar on the right side of the screen.
+
+### 4\. Timeline
+
+Use the timeline to jump to a specific day's images in your Archive. Hover to
+see the dates, and click to jump to that day. More recent dates are at the top
+of the timeline, while older dates appear closer to the bottom of the page.
+
+  
+
+* * *
+
+## Folders, Filters, and View Options
+
+These options let you control which of your images you see on the Archive, and
+how they're displayed.
+
+  
+
+### Folders
+
+Your existing folders will appear in the list here. To add a new folder to the
+list, click `Create Folder`. You can drag and drop images from your Archive
+into folders to organize them, or use the bulk actions menu to move many
+images into a folder at once. You can also create smart folders, which will
+automatically include any images that match the search terms you set for them.
+
+#### Smart Folders
+
+When creating a new folder, you'll have the option to set it up as a smart
+folder. Smart folders will automatically include any images you generate that
+match your search terms, but you can't manually add or remove images from
+them.
+
+  
+
+**Search Terms**  
+
+  * By default, only prompts that contain _all_ of your search terms will be included in the smart folder, but it doesn't matter where or in what order those words appear in the prompts. For example, if you enter `cat dog` as your search terms, only images with both `cat` and `dog` somewhere in the prompt will be included. To include images with either cat _or_ dog in the prompt, separate the terms with commas: `cat, dog`.
+  * The smart folder search terms match partial strings. This means that if one of your search terms is a word that's also part of a longer word (for example, `cat` is part of `catapult`), any prompts you have with the longer word will also be included in the folder.
+
+  
+
+### Filters
+
+Use these preset options to filter your images.
+
+  * You can check multiple boxes in each section to show images that match any of those options. For example, if you check "Liked" and "Unrated" in the `Rating` section, your Archive will display all Liked or Unrated images, but not Hidden ones.
+  * You can check boxes in multiple sections to show images that match both sets of selections. For example, if you check "Liked" in the `Rating` section and "Landscape" in the `Image Size` section, your Archive will show only landscape images that you Liked.
+  * Leaving all the boxes in a section unchecked is the same as checking all of them.
+  * If you can't filter for the set of images you'd like to find using a combination of the preset filters, try using the search bar to find them.
+  * **If any of the filters are checked, you won't be able to see all your images. If you think images are missing from your Archive, uncheck all the boxes on the right, and they should reappear.**
+
+  
+
+### View Options
+
+Use these options to control how the images in your Archive are displayed.
+
+#### Layout
+
+**Square:** All your images will appear as squares. In this layout, any
+landscape or portrait images you've generated will appear cropped.  
+**Full:** All your images will appear uncropped, but they'll be shrunk to fit
+in the square layout. You'll see white space around any landscape or portrait
+images to fit them into the page grid, and details may be harder to see.
+
+#### Image Size
+
+Control how large the image tiles appear on the page. Larger image sizes will
+result in fewer images being shown on your screen at once.
+
+  
+
+* * *
+
+## Bulk Selection and Actions
+
+From your Archive, you can take bulk actions on images you've generated, such
+as downloading them, assigning them to folders, or, if you have a plan that
+includes Stealth Mode, publishing and unpublishing them.
+
+### Bulk Selection
+
+There are several ways to select multiple images from your Archive:
+
+  * Click the  next to a date in your Archive to select all the images you created that day. You can select multiple days at once by clicking the  next to multiple dates.
+  * Click any white space on the page and drag your cursor to select groups of images.
+  * `Shift + Click` any individual images to add or remove them from your selection.
+  * Click outside of a selection or click the  in the bulk actions menu to unselect all the images.
+
+  
+
+### Bulk Actions Menu
+
+Once you've selected a batch of images from your Archive, a bulk actions menu
+will appear as a bar near the bottom of the page. The number displayed here is
+a count of all the images you've selected.
+
+####  Download
+
+Download the selected images.
+
+####  More:
+
+**Like / Unlike**  
+Like or Unlike all the selected images.
+
+**Hide / Unhide**  
+Hide or Unhide all the selected images from your Archive. They'll still be
+visible to other users unless they're unpublished.
+
+**Publish / Unpublish**  
+Publish or Unpublish all the selected images from the website. These options
+only appear if your current plan includes Stealth Mode. Unpublished images
+will still be visible to you.
+
+**Add to Folder**  
+Add all the selected images to a folder you've created. Since you can't
+manually add or remove images from smart folders, they won't appear in the
+list of options here.
+
+**Cancel**  
+Clear your selection and close this bar.
+
+You can "Hide" images on the Midjourney website to remove them from your
+Archive. They'll no longer be visible to you unless you have the "Hidden"
+filter selected, but other users will still be able to view them (unless the
+image is also "Unpublished"). Hiding images is a good way to keep your Archive
+uncluttered.
+
+You can "Unhide" your hidden images to restore them to your archive anytime,
+so they're never lost.
+
+By default, all images generated by Midjourney are "published," or viewable by
+other users on midjourney.com. Users on plans that include Stealth Mode can
+generate "unpublished" images that aren't visible to other users.
+
+You can publish your own unpublished images at any time on the website. If you
+have an active subscription that includes Stealth Mode, you can also unpublish
+any published images you have.
+
+Learn more about Stealth Mode.

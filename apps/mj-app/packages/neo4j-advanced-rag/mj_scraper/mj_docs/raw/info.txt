@@ -1,0 +1,138 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+User Info
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# User Info
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### Use the `/info` command to see information about your current queued and
+running jobs, subscription type, renewal date, and more.
+
+### User ID
+
+Your Midjourney User ID
+
+### Subscription
+
+The Subscription section shows which plan you are subscribed to and your next
+renewal date.
+
+### Visibility Mode
+
+Shows whether you are currently in Public or Stealth Mode. Stealth Mode is
+only available to Pro Plan subscribers.
+
+### Fast Time Remaining
+
+Shows your remaining Fast GPU time for the month. Fast GPU time resets monthly
+and does not carry over.
+
+### Ranking Count
+
+Shows your total number of ranked images, along with the number of images
+ranked in the last 30 days.
+
+### Lifetime Usage
+
+Shows your lifetime Midjourney stats. **Images** include all types of
+generations (initial image grids, upscales, variations, remix, etc).
+
+### Fast, Turbo and Relaxed Usage
+
+Shows your Fast, Turbo and Relaxed Mode usage.
+
+### Queued Fast and Relaxed Jobs
+
+Lists all Jobs queued to run.
+
+### Running Jobs
+
+Lists all Jobs currently running. A maximum of three jobs can run at the same
+time.
+
+  
+
+* * *
+
+## Use the Info Command
+
+Type `/info` in any Bot Channel or your Direct Messages. Only you will be able
+to see your Info popup.  
+
+A **Job** is any action that uses the Midjourney Bot. **Jobs** include using
+`/imagine` to create an initial image grid, upscaling images, and creating
+variations of images.
+
+A **Job** is any action that uses the Midjourney Bot. **Jobs** include using
+`/imagine` to create an initial image grid, upscaling images, and creating
+variations of images.
+
+**Bot Channels** are Discord channels where the Midjourney Bot has been
+permitted to process Slash Commands. On the official Midjourney Discord, all
+channels in the **Newcomer Rooms** , **Thread Channels** , **Themed Image
+Gen** , and **General Image Gen** categories are Bot Channels.
+
+  
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

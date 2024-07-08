@@ -1,0 +1,26 @@
+Text Generation
+
+# Text Generation
+
+#### With Midjourney Version 6, you can use double quotation marks (`"`)
+around words or phrases in your prompts to specify text you want to appear in
+your images.
+
+  * When using Midjourney Version 6, you can use "quotation marks" to indicate parts of your prompt you want to appear in your image as text: `a cyberpunk cat with a neon sign that says "Midjourney"`.
+  * Single quote marks/apostrophes won't work--Midjourney only recognizes "words and phrases in double quotations" as text that should appear in the resulting image.
+  * Text generation is supported for standard Latin alphabet (English) characters. Shorter words and phrases are more likely to be generated accurately.
+  * If you're having trouble generating the exact word or phrase in your prompt, try using `--style raw` or lower Stylize values, or try using Vary Region to correct small issues.
+
+  
+
+* * *
+
+### Examples
+
+`/imagine prompt: a cyberpunk cat with a neon sign that says "Midjourney"`
+
+`/imagine prompt: a pastel watercolor landscape with "/imagine" written in the
+clouds`
+
+`/imagine prompt: a cartoon drawing of a manual with the words "read the docs"
+in big text on the pages`

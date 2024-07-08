@@ -1,0 +1,98 @@
+Stylize
+
+# Stylize
+
+#### The Midjourney Bot has been trained to produce images that favor artistic
+color, composition, and forms. The `--stylize` or `--s` parameter influences
+how strongly this training is applied. Low stylization values produce images
+that closely match the prompt but are less artistic. High stylization values
+create images that are very artistic but less connected to the prompt.
+
+`--stylize`'s default value is 100 and accepts integer values 0–1000 when
+using the current models
+
+  
+
+* * *
+
+## Common Stylize Settings
+
+### Influence of Stylize on Model Version 6
+
+prompt example: `/imagine prompt` `child's drawing of a cat --s 100`
+
+##### `--stylize 0`
+
+##### `--stylize 50`
+
+Equal to `🖌️ Style Low`
+
+##### `--stylize 100` (default)
+
+Equal to `🖌️ Style Med`
+
+  
+
+##### `--stylize 250`
+
+Equal to `🖌️ Style High`
+
+##### `--stylize 500`
+
+##### `--stylize 750`
+
+Equal to `🖌️ Style Very High`
+
+  
+  
+  
+
+prompt example: `/imagine prompt` `colorful risograph of a fig --s 100`
+
+`--stylize 50`
+
+Equal to `🖌️ Style Low`
+
+`--stylize 100` (default)
+
+Equal to `🖌️ Style Med`
+
+`--stylize 250`
+
+Equal to `🖌️ Style High`
+
+`--stylize 750`
+
+Equal to `🖌️ Style Very High`
+
+  
+
+* * *
+
+## How to Use Stylize
+
+### Use the Stylize Parameter
+
+Add `--stylize <value>` or `--s <value>` to the end of your prompt on Discord
+or in the imagine bar on the website:
+
+  
+
+### Use the Discord Settings Command
+
+Type `/settings` and select your preferred stylize value from the menu.
+
+`🖌️ Style Low` `🖌️ Style Med` `🖌️ Style High` `🖌️ Style Very High`
+
+### Website Settings
+
+You can set a default Stylization using the Settings button in the imagine
+bar:
+
+  
+
+Adjust the slider left for lower values and right for higher values.
+
+The value you set here will apply to all your prompts unless you specify a
+different value using the `--stylize` or `--s` parameter in an individual
+prompt.

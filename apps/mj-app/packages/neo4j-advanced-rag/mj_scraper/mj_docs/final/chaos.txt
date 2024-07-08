@@ -1,0 +1,87 @@
+Chaos
+
+# Chaos
+
+#### The `--chaos` or `--c` parameter influences how varied the initial image
+grids are. High `--chaos` values will produce more unusual and unexpected
+results and compositions. Lower `--chaos` values have more reliable,
+repeatable results.
+
+`--chaos` accepts values 0–100.  
+The default `--chaos` value is 0.
+
+* * *
+
+## The Influence of Chaos on Jobs
+
+### No `--chaos` value
+
+Using a very low `--chaos` value, or not specifying a value, will produce
+initial image grids that are similar.
+
+prompt example: `/imagine prompt:` `a silver seashell inlaid with pink and
+green accents --c 0`
+
+  
+
+### Low `--chaos` values
+
+Using a low `--chaos` value will produce initial image grids that are slightly
+varied.
+
+prompt example: `/imagine prompt:` `a silver seashell inlaid with pink and
+green accents --c 10`
+
+  
+
+### Moderate `--chaos` values
+
+Using a moderate `--chaos` value will produce initial image grids that are
+varied.
+
+prompt example: `/imagine prompt:` `a silver seashell inlaid with pink and
+green accents --c 25`
+
+  
+
+### High `--chaos` Values
+
+Using a higher `--chaos` value will produce initial image grids that are more
+varied and unexpected.
+
+prompt example: `/imagine prompt:` `a silver seashell inlaid with pink and
+green accents --c 50`
+
+  
+
+### Very High `--chaos` Values
+
+Using extremely high `--chaos` values will produce initial image grids that
+are varied and have unexpected compositions or elements.
+
+prompt example: `/imagine prompt:` `a silver seashell inlaid with pink and
+green accents --c 80`
+
+* * *
+
+## How to Change the Chaos Value
+
+### Use the `--chaos` or `--c` Parameter
+
+Add `--chaos <value>` or `--c <value>` to the end of your prompt on Discord or
+in the imagine bar on the website:
+
+  
+
+### Website Settings
+
+On the website imagine bar Settings, Chaos is called Variety. You can set a
+default Variety value using the Settings button in the imagine bar:
+
+  
+
+Adjust the slider left for lower values and right for higher values.
+
+The value you set here will apply to all your prompts unless you specify a
+different value using the `--chaos` or `--c` parameter in an individual
+prompt.

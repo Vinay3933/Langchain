@@ -1,0 +1,123 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Video
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Video
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+#### Use the `--video` parameter to create a short movie of your initial image
+grid being generated. React to the finished job with the envelope ✉️ emoji to
+have the Midjourney Bot send a link to the video to your Direct Messages.
+
+`--video` only works on image grids, not upscales.  
+`--video` works with Model Versions `5.2` `6` `niji 5` and `niji 6`.  
+`--video` works with Legacy Model Versions `1` `2` `3` `5.0` `5.1` `test` and
+`testp`.  
+Generated videos are deleted 30 days after creation.
+
+* * *
+
+## Video Examples
+
+vibrant California Poppies
+
+a botanical sketch of a fern fronds
+
+* * *
+
+## How to Get a Video Link
+
+Prompt example: `/imagine prompt` `Vibrant California Poppies --video`
+
+  
+
+`1` Add `--video` to the end of your prompt.
+
+`2` Once the Job has finished, click Add Reaction
+
+`3` Select the ✉️ Envelope emoji.
+
+  
+
+`4` The Midjourney bot will send a link to the video to your Direct Messages.
+
+`5` Click the link to view your video within a browser. Right-click or Long
+Press to download the video.
+
+  
+
+* * *
+
+## How to Use the Video Parameter
+
+Add `--video` to the end of your prompt.
+
+  
+
+Subscribers can work one-on-one with the Midjourney Bot in Discord's Direct
+Messages instead of a public channel. Images made within your direct messages
+are still subject to content and moderation rules and will be visible on your
+Midjourney website gallery.
+
+* * *
+
+__
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

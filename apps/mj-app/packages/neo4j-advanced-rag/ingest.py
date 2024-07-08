@@ -1,22 +1,30 @@
 from pathlib import Path
 from typing import List
 
+from langchain_community.chat_models import ChatOllama
 from langchain_community.document_loaders import TextLoader
 from langchain_community.graphs import Neo4jGraph
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.pydantic_v1 import BaseModel, Field
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain_nomic.embeddings import NomicEmbeddings
 from langchain_text_splitters import TokenTextSplitter
 from neo4j.exceptions import ClientError
 
-txt_path = Path(__file__).parent / "dune.txt"
+txt_path = "./midjourney docs links.txt"
 
-graph = Neo4jGraph()
+
+URI = "neo4j://localhost:7687"
+AUTH = ("neo4j", "rag_vector_2024")
+
+graph = Neo4jGraph(URI, username=AUTH[0], password=AUTH[1], database="mjdb")
 
 # Embeddings & LLM models
-embeddings = OpenAIEmbeddings()
-embedding_dimension = 1536
-llm = ChatOpenAI(temperature=0)
+embeddings = NomicEmbeddings(model="nomic-embed-text-v1.5", inference_mode="local", dimensionality=768)
+embedding_dimension = 768
+
+llm = ChatOllama(model="llama3", 
+                #  format="json", 
+                 temperature=0)
 
 # Load the text file
 loader = TextLoader(str(txt_path))

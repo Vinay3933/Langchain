@@ -1,0 +1,90 @@
+
+
+  * __
+
+Contents x
+
+No matching results found
+
+  * 
+
+* * *
+
+__ __
+
+Remaster
+
+  *  __ Dark
+
+ __ Light
+
+ __Contents
+
+# Remaster
+
+  *  __ Dark
+
+ __ Light
+
+* * *
+
+Article summary
+
+ __
+
+Did you find this summary helpful? __ __ __ __
+
+__
+
+Thank you for your feedback
+
+## Remaster
+
+The Remaster feature is available for upscaled images generated using earlier
+Midjourney Model Versions. It creates a new grid of images using the latest
+Midjourney Model, combining the original image's composition with the
+coherency of the newer Midjourney Model Version v5.2.
+
+Remaster any previously upscaled job by clicking the `🆕 Remaster` button
+beneath the original upscale.
+
+To Remaster very old jobs, use the `/show` command to refresh that job in
+Discord.
+
+  
+
+prompt example: `/imagine prompt` `Byzantine sandcastle cathedral --v 2`
+
+##### Original Model Version 2 Image
+
+##### Remastered with Model Version 5.2
+
+* * *
+
+ __
+
+Previous
+
+Next
+
+ __
+
+Table of contents
+
+Midjourney is an independent research lab exploring new mediums of thought and
+expanding the imaginative powers of the human species. We are a small self-
+funded team focused on design, human infrastructure, and AI.
+
+FOLLOW US: [F] [T] [R]
+
+Support
+
+For questions or support visit the  Midjourney Discord support channels.
+
+Sites
+
+  * Midjourney Website
+  * Midjourney Discord
+
+__
+

@@ -1,0 +1,157 @@
+Command List
+
+# Command List
+
+#### You can interact with the Midjourney Bot on Discord by typing a Command.
+Commands are used to create images, change default settings, monitor user
+info, and perform other helpful tasks.
+
+Midjourney Commands can be used in any Bot Channel, on private Discord servers
+where the Midjourney Bot has been permitted to operate, or in a direct message
+with the Midjourney Bot.
+
+## Commands
+
+### /ask
+
+Get an answer to a question.
+
+### /blend
+
+Easily blend two images together.
+
+### /daily_theme
+
+Toggle notification pings for the #daily-theme channel update
+
+### /describe
+
+Writes four example prompts based on an image you upload.
+
+### /docs
+
+Use in the official Midjourney Discord server to quickly generate a link to
+topics covered in this user guide!
+
+### /fast
+
+Switch to Fast mode.
+
+### /feedback
+
+Submit suggestions and ideas for Midjourney and rate ideas from others.
+
+### /faq
+
+Use in the official Midjourney Discord server to quickly generate a link to
+popular prompt craft channel FAQs.
+
+### /help
+
+Shows helpful basic information and tips about the Midjourney Bot.
+
+### /imagine
+
+Generate an image using a prompt
+
+### /info
+
+View information about your account and any queued or running jobs.
+
+### /invite
+
+Get the invite link for the Midjourney Discord server.
+
+### /list_tuners
+
+Generate a list of all of the Style Tuner you have created.
+
+### /prefer option set
+
+Create or manage a custom option.
+
+### /prefer option list
+
+View your current custom options.
+
+### /prefer remix
+
+Toggle Remix mode.
+
+### /prefer suffix
+
+Specify a suffix to add to the end of every prompt.
+
+### /prefer variability
+
+Toggle between High and Low variations when using the `V1` `V2` `V3` and `V4`
+buttons underneath an image grid.
+
+### /public
+
+For Pro Plan Subscribers: switch to Public Mode
+
+### /relax
+
+Switch to Relax mode.
+
+### /settings
+
+View and adjust the Midjourney Bot's settings
+
+### /stealth
+
+For Pro Plan Subscribers: switch to Stealth Mode
+
+### /shorten
+
+Submit a long prompt and receive suggestions on how to make it more concise.
+
+### /show
+
+Use an images Job ID to regenerate the job within Discord.
+
+### /subscribe
+
+Generate a personal link for a user's account page.
+
+### /synonyms
+
+Use in the official Midjourney Discord server to explore related words and
+phrases to try in your prompts.
+
+### /tune
+
+Generate a Style Tuner based on your prompt. The Style Tuner lets you make
+your own Midjourney style and customize the look of your jobs.
+
+### /turbo
+
+Switch to Turbo mode.
+
+### /userid
+
+Get your Midjourney User ID
+
+  
+
+* * *
+
+## Deprecated
+
+/private (replaced with '/stealth')  
+/pixels  
+/idea
+
+You can interact with the Midjourney Bot on Discord by typing a Command.
+Commands are used to create images, change default settings, monitor user
+info, and perform other helpful tasks.
+
+Midjourney Commands can be used in any Bot Channel, on private Discord servers
+where the Midjourney Bot has been permitted to operate, or in a direct message
+with the Midjourney Bot.
+
+**Bot Channels** are Discord channels where the Midjourney Bot has been
+permitted to process Slash Commands. On the official Midjourney Discord, all
+channels in the **Newcomer Rooms** , **Thread Channels** , **Themed Image
+Gen** , and **General Image Gen** categories are Bot Channels.
