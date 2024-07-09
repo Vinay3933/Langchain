@@ -100,8 +100,18 @@ summary_chain = summary_prompt | llm | StrOutputParser()
 
 # summary_chain.invoke({"input":text})
 
-# Define the function to Process the files and ingest them into Neo4j Graph DB
-def process_file(file_name):
+# Process the files and ingest them into Neo4j Graph DB
+for file_name in mj_files:
+
+    # Check if the file has already been processed
+    result = graph.query(
+        "MATCH (p:Parent {file_name: $file_name}) RETURN p LIMIT 1",
+        {"file_name": file_name},
+    )
+    if result:
+        print(f"File {file_name} has already been processed. Skipping.")
+        continue
+
     txt_path = os.path.join(mj_docs_dir, file_name)
 
     # Load the text file
@@ -111,11 +121,16 @@ def process_file(file_name):
     # Ingest Parent-Child node pairs
     parent_documents = parent_splitter.split_documents(documents)
 
+    previous_parent_id = None
+
     for i, parent in enumerate(parent_documents):
+
+        parent_id = f"{file_name}_{i}"
+
         child_documents = child_splitter.split_documents([parent])
         params = {
             "parent_text": parent.page_content,
-            "parent_id": f"{file_name}_{i}",
+            "parent_id": parent_id,
             "parent_embedding": embeddings.embed_query(parent.page_content),
             "children": [
                 {
@@ -125,13 +140,15 @@ def process_file(file_name):
                 }
                 for ic, c in enumerate(child_documents)
             ],
+            "file_name" : file_name
         }
         # Ingest data
         graph.query(
             """
         MERGE (p:Parent {id: $parent_id})
         SET p.text = $parent_text,
-            p.embedding = $parent_embedding
+            p.embedding = $parent_embedding,
+            p.file_name = $file_name
         WITH p 
         UNWIND $children AS child
         MERGE (c:Child {id: child.id})
@@ -142,6 +159,21 @@ def process_file(file_name):
         """,
             params,
         )
+
+        # Create edges between consecutive parent nodes
+        if previous_parent_id:
+            graph.query(
+                """
+                MATCH (p1:Parent {id: $previous_parent_id}), (p2:Parent {id: $current_parent_id})
+                MERGE (p1)-[:SAME_FILE_NEXT_SPLIT]->(p2)
+                """,
+                {"previous_parent_id": previous_parent_id, "current_parent_id": parent_id},
+            )
+        
+        # Update the previous parent id for the next iteration
+        previous_parent_id = parent_id
+
+
         # Create vector index for child
         try:
             graph.query(
@@ -158,6 +190,7 @@ def process_file(file_name):
             )
         except ClientError:  # already exists
             pass
+
         # Create vector index for parents
         try:
             graph.query(
@@ -174,6 +207,7 @@ def process_file(file_name):
             )
         except ClientError:  # already exists
             pass
+
 
     # Ingest hypothethical questions
     for i, parent in enumerate(parent_documents):
@@ -251,14 +285,4 @@ def process_file(file_name):
         except ClientError:  # already exists
             pass
 
-# Process files concurrently using ThreadPoolExecutor
-with ThreadPoolExecutor() as executor:
-    futures = {executor.submit(process_file, file_name): file_name for file_name in mj_files[:5]}
-
-    for future in as_completed(futures):
-        file_name = futures[future]
-        try:
-            future.result()
-            print(f"{file_name} processed successfully.")
-        except Exception as e:
-            print(f"Error processing {file_name}: {e}")
+    print(f"File {file_name} processed successfully.")
