@@ -11,7 +11,7 @@ from langchain_nomic.embeddings import NomicEmbeddings
 from langchain_text_splitters import TokenTextSplitter
 from neo4j.exceptions import ClientError
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from langchain_core.output_parsers import StrOutputParser
+from langchain_core.output_parsers import JsonOutputParser
 
 
 # Neo4j graph credentials - Local Graph DB
@@ -20,8 +20,8 @@ AUTH = ("neo4j", "rag_vector_2024")
 database = "mjdb"
 
 
-# dir_path = os.path.dirname(os.path.abspath("__file__"))
-dir_path = "/Users/vinaytanwer/Desktop/Projects/Chatbots/langchain/apps/mj-app/packages/neo4j-advanced-rag"
+dir_path = os.path.dirname(os.path.abspath("__file__"))
+# dir_path = "/Users/vinaytanwer/Desktop/Projects/Chatbots/langchain/apps/mj-app/packages/neo4j-advanced-rag"
 mj_docs_dir = os.path.join(dir_path, "mj_scraper/mj_docs/final")
 
 # File names to process
@@ -53,7 +53,7 @@ class Questions(BaseModel):
     questions: List[str] = Field(
         ...,
         description=(
-            "Generated hypothetical questions based on " "the information from the text"
+            "Generated hypothetical questions based on the information from the text"
         ),
     )
 
@@ -83,22 +83,32 @@ question_chain = questions_prompt | llm.with_structured_output(Questions)
 
 
 # Define Summary Generation Retrieval Chain
+
+class Summary(BaseModel):
+    """Generating hypothetical questions about text."""
+
+    summary: str = Field(
+        ...,
+        description=(
+            "Generated summary for the information from the text"
+        ),
+    )
+
 summary_prompt = PromptTemplate(
         template="""<|begin_of_text|><|start_header_id|>system<|end_header_id|> You are expert in Summary writing.
-        Your task is to generate accurate summaries for the input provided by the user
-        Please respond in string format which can be parsed by a String parser
+        Your task is to generate accurate summary for the input provided by the user
+
         <|eot_id|><|start_header_id|>user<|end_header_id|>
         {input}
         <|eot_id|><|start_header_id|>assistant<|end_header_id|>
-        Summary : 
         """,
         input_variables=["input"],
     )
 
 
-summary_chain = summary_prompt | llm | StrOutputParser()
+summary_chain = summary_prompt | llm.with_structured_output(Summary)
 
-# summary_chain.invoke({"input":text})
+# summary_chain.invoke({"input":text}).summary
 
 # Process the files and ingest them into Neo4j Graph DB
 for file_name in mj_files:
@@ -252,7 +262,7 @@ for file_name in mj_files:
 
     # Ingest summaries
     for i, parent in enumerate(parent_documents):
-        summary = summary_chain.invoke({"input": parent.page_content})
+        summary = summary_chain.invoke({"input": parent.page_content}).summary
         params = {
             "parent_id": f"{file_name}_{i}",
             "summary": summary,
