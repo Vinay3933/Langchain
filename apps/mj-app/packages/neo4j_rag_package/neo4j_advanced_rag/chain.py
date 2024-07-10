@@ -4,9 +4,9 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.pydantic_v1 import BaseModel
 from langchain_core.runnables import ConfigurableField, RunnableParallel
-from langchain_openai import ChatOpenAI
+from langchain_community.chat_models import ChatOllama
 
-from neo4j_advanced_rag.retrievers import (
+from .retrievers import (
     hypothetic_question_vectorstore,
     parent_vectorstore,
     summary_vectorstore,
@@ -23,9 +23,10 @@ template = """Answer the question based only on the following context:
 
 Question: {question}
 """
+
 prompt = ChatPromptTemplate.from_template(template)
 
-model = ChatOpenAI()
+model = ChatOllama(model="llama3")
 
 retriever = typical_rag.as_retriever().configurable_alternatives(
     ConfigurableField(id="strategy"),
