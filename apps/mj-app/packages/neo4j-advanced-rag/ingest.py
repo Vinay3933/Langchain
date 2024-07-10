@@ -41,8 +41,8 @@ graph = Neo4jGraph(URI, username=AUTH[0], password=AUTH[1], database=database)
 
 
 # Define the Parent Child Text Splitters
-parent_splitter = TokenTextSplitter(chunk_size=2048, chunk_overlap=300)
-child_splitter = TokenTextSplitter(chunk_size=512, chunk_overlap=50)
+parent_splitter = TokenTextSplitter(chunk_size=1500, chunk_overlap=250)
+child_splitter = TokenTextSplitter(chunk_size=500, chunk_overlap=50)
 
 
 
@@ -88,23 +88,29 @@ class Summary(BaseModel):
     """Generating hypothetical questions about text."""
 
     summary: str = Field(
-        ...,
         description=(
             "Generated summary for the information from the text"
         ),
     )
 
-summary_prompt = PromptTemplate(
-        template="""<|begin_of_text|><|start_header_id|>system<|end_header_id|> You are expert in Summary writing.
-        Your task is to generate accurate summary for the input provided by the user
-
-        <|eot_id|><|start_header_id|>user<|end_header_id|>
-        {input}
-        <|eot_id|><|start_header_id|>assistant<|end_header_id|>
-        """,
-        input_variables=["input"],
-    )
-
+summary_prompt = ChatPromptTemplate.from_messages(
+    [
+        (
+            "system",
+            (
+                "You are expert in Summary writing. You are generating accurate summary for the input provided in the text."
+                "Output should be a single key 'summary'"
+            ),
+        ),
+        (
+            "human",
+            (
+                "Use the given format to generate summary for the "
+                "following input: {input}"
+            ),
+        ),
+    ]
+)
 
 summary_chain = summary_prompt | llm.with_structured_output(Summary)
 
@@ -112,6 +118,9 @@ summary_chain = summary_prompt | llm.with_structured_output(Summary)
 
 # Process the files and ingest them into Neo4j Graph DB
 for file_name in mj_files:
+
+    print("\n-------------------------------------------------------------------")
+    print(f"Processing file - {file_name}")
 
     # Check if the file has already been processed
     result = graph.query(
@@ -221,7 +230,18 @@ for file_name in mj_files:
 
     # Ingest hypothethical questions
     for i, parent in enumerate(parent_documents):
-        questions = question_chain.invoke({"input": parent.page_content}).questions
+        # Generate hypothetical questions for the document (Retry 5 times max)
+        j = 0
+        while j<5:
+            try:
+                questions = question_chain.invoke({"input": parent.page_content}).questions
+                print(f"\nProcessed Parent {i} Questions: \n{questions}")
+                break
+            except:
+                j+=1
+        if j == 5:
+            raise Exception(f"Error while question generation in {file_name}")
+        
         params = {
             "parent_id": f"{file_name}_{i}",
             "questions": [
@@ -262,7 +282,18 @@ for file_name in mj_files:
 
     # Ingest summaries
     for i, parent in enumerate(parent_documents):
-        summary = summary_chain.invoke({"input": parent.page_content}).summary
+        # Generate summary for the document (Retry 5 times max)
+        j = 0
+        while j<5:
+            try:
+                summary = summary_chain.invoke({"input": parent.page_content}).summary
+                print(f"\nProcessed Parent {i} Summary: \n{summary}")
+                break
+            except:
+                j+=1
+        if j == 5:
+            raise Exception(f"Error while summary generation in {file_name}")
+
         params = {
             "parent_id": f"{file_name}_{i}",
             "summary": summary,
